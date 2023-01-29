@@ -1,0 +1,838 @@
+{
+    "megamenu": [
+        {
+            "text": "Ноутбуки",
+            "url": "/blog",
+            "subMenu": [
+                {
+                    "heading": "Игровые ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Офисные ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Бизнес ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки Dell",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки Asus",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки HP",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Игровые PC",
+            "url": "/shop",
+            "subMenu": [
+                {
+                    "heading": "Игровые ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Офисные ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Бизнес ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки Dell",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки Asus",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки HP",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Рабочие станции",
+            "url": "/shop",
+            "subMenu": [
+                {
+                    "heading": "Игровые ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Офисные ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Бизнес ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки Dell",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки Asus",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки HP",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Комплектующие ПК",
+            "url": "/shop",
+            "subMenu": [
+                {
+                    "heading": "Игровые ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Офисные ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Бизнес ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки Dell",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки Asus",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки HP",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Мониторы",
+            "url": "/shop",
+            "subMenu": [
+                {
+                    "heading": "Игровые ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Офисные ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Бизнес ноутбуки",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Acer",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Asus",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки Dell",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки Asus",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Ноутбуки HP",
+                    "url": "/shop",
+                    "subMenu": [
+                        {
+                            "text": "Inspiron Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "G Series",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Dell",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "MSI",
+                            "url": "/shop"
+                        },
+                        {
+                            "text": "Lenovo",
+                            "url": "/shop"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Клавиатура",
+            "url": "/shop"
+        },
+        {
+            "text": "Мышь и коврик для мыши",
+            "url": "/shop"
+        },
+        {
+            "text": "Наушник",
+            "url": "/shop"
+        },
+        {
+            "text": "Аудиоустройства",
+            "url": "/shop"
+        },
+        {
+            "text": "Сетевые компоненты",
+            "url": "/shop"
+        },
+        {
+            "text": "Аксесуары",
+            "url": "/shop"
+        }
+    ]
+}

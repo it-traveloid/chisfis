@@ -1,0 +1,205 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model news {
+  id             Int      @id @default(autoincrement())
+  name           String?  @db.VarChar(300)
+  slug           String?  @db.VarChar(300)
+  description    String?  @db.Text
+  seodescription String?  @db.VarChar(300)
+  keywords       String?  @db.VarChar(300)
+  hide           Boolean  @default(false)
+  created        DateTime @default(now())
+  updated        DateTime @default(now())
+}
+
+model product_images {
+  id                Int              @id @default(autoincrement())
+  product_id        Int
+  sorter            Int?
+  url               String?          @db.VarChar(300)
+  previewUrl        String?          @db.VarChar(300)
+  name              String?          @db.VarChar(300)
+  alternativeText   String?          @db.VarChar(300)
+  caption           String?          @db.VarChar(300)
+  width             String?          @db.VarChar(300)
+  height            String?          @db.VarChar(300)
+  formats           String?          @db.VarChar(300)
+  hash              String?          @db.VarChar(300)
+  provider          String?          @default("local") @db.VarChar(300)
+  provider_metadata String?          @db.VarChar(300)
+  created_at        DateTime         @default(now())
+  updated_at        DateTime         @default(now())
+  ext               String?          @default(".jpg") @db.VarChar(300)
+  mime              String?          @default("image/jpeg") @db.VarChar(300)
+  size              Float?           @default(0)
+  products          products         @relation(fields: [product_id], references: [id])
+  product_stores    product_stores[]
+
+  @@index([product_id], map: "product_images_product_id_fkey")
+}
+
+model product_properties {
+  id         Int      @id @default(autoincrement())
+  product_id Int
+  property   String?  @db.VarChar(3000)
+  value      String?  @db.VarChar(3000)
+  products   products @relation(fields: [product_id], references: [id])
+}
+
+model product_brands {
+  id         Int      @id @default(autoincrement())
+  product_id Int
+  name       String?  @db.VarChar(300)
+  slug       String?  @db.VarChar(300)
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now())
+}
+
+model product_collections {
+  id         Int      @id @default(autoincrement())
+  product_id Int
+  name       String?  @db.VarChar(300)
+  slug       String?  @db.VarChar(300)
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now())
+}
+
+model product_stores {
+  id               Int             @id @default(autoincrement())
+  name             String?         @db.VarChar(300)
+  slug             String?         @db.VarChar(300)
+  address          String?         @db.VarChar(500)
+  phone            String?         @db.VarChar(100)
+  created_at       DateTime        @default(now())
+  updated_at       DateTime        @default(now())
+  thumbnail        product_images? @relation(fields: [product_imagesId], references: [id])
+  products         products[]
+  product_imagesId Int?
+}
+
+model products {
+  id                 Int                  @id @default(autoincrement())
+  title              String?              @db.VarChar(300)
+  slug               String?              @db.VarChar(300)
+  tags               tags[]
+  rating             ratings[]
+  parent             Int?                 @default(0)
+  preview            String?              @db.VarChar(300)
+  vendor             String?              @db.VarChar(300)
+  categories         String?              @db.VarChar(300)
+  viewed             Int?
+  inventory          Int?
+  depot              Int?
+  sorter             Int?
+  price              Float?               @default(0)
+  sale_price         Float?               @default(0)
+  description        String?              @db.Text
+  is_sale            Boolean              @default(true)
+  is_active          Boolean              @default(true)
+  is_featured        Boolean              @default(false)
+  is_hot             Boolean              @default(false)
+  is_out_of_stock    Boolean              @default(false)
+  created_at         DateTime             @default(now())
+  updated_at         DateTime             @default(now())
+  article            String?              @db.VarChar(300)
+  file               String?              @db.VarChar(500)
+  warranty           String?              @db.VarChar(500)
+  images             product_images[]
+  properties         product_properties[]
+  product_categories product_categories[]
+  product_stores     product_stores?      @relation(fields: [product_storesId], references: [id])
+  product_storesId   Int?
+  order_contents     order_contents[]
+}
+
+model users {
+  id         Int      @id @default(autoincrement())
+  username   String   @db.VarChar(300)
+  uuid    String?  @db.VarChar(300)
+  surname    String?  @db.VarChar(300)
+  email      String   @db.VarChar(300)
+  password   String   @db.VarChar(300)
+  roles      String?  @db.VarChar(300)
+  scheme     String?  @db.VarChar(100)
+  city       String?  @db.VarChar(100)
+  warehouse  String?  @db.VarChar(100)
+  title      String?  @db.VarChar(300)
+  site       String?  @db.VarChar(300)
+  assortment String?  @db.VarChar(300)
+  category   String?  @db.VarChar(300)
+  status     Int?
+  created    DateTime @default(now())
+  updated    DateTime @default(now())
+}
+
+model questions {
+  id         Int      @id @default(autoincrement())
+  usersid   String?   @db.VarChar(300)
+  question    String?  @db.VarChar(500)
+  email      String?   @db.VarChar(300)
+ 
+}
+
+model product_categories {
+  id           Int        @id @default(autoincrement())
+  category     categories @relation(fields: [categoriesId], references: [id])
+  products     products?  @relation(fields: [productsId], references: [id])
+  productsId   Int?
+  categoriesId Int
+}
+
+model categories {
+  id                 Int                  @id @default(autoincrement())
+  parent             Int                  @default(0)
+  name               String               @db.VarChar(300)
+  slug               String               @db.VarChar(300)
+  description        String               @default("") @db.Text
+  product_categories product_categories[]
+}
+
+model tags {
+  id         Int       @id @default(autoincrement())
+  name       String    @db.VarChar(300)
+  slug       String    @db.VarChar(300)
+  products   products? @relation(fields: [productsId], references: [id])
+  productsId Int?
+}
+
+model ratings {
+  id         Int       @id @default(autoincrement())
+  value      Float?    @default(0)
+  username   String?   @db.VarChar(300)
+  useremail  String?   @db.VarChar(300)
+  review     String?   @db.Text()
+  products   products? @relation(fields: [productsId], references: [id])
+  productsId Int?
+}
+
+model orders {
+  id          Int              @id @default(autoincrement())
+  user        String?          @db.VarChar(300)
+  type        String?          @db.VarChar(100)
+  status      String?          @db.VarChar(300)
+  description String           @default("") @db.Text
+  contents    order_contents[]
+  created     DateTime         @default(now())
+  updated     DateTime         @default(now())
+}
+
+model order_contents {
+  id         Int      @id @default(autoincrement())
+  product    products @relation(fields: [productsId], references: [id])
+  quantity   Int      @default(0)
+  price      Float    @default(0)
+  sum        Float    @default(0)
+  orders     orders?  @relation(fields: [ordersId], references: [id])
+  ordersId   Int?
+  productsId Int
+}

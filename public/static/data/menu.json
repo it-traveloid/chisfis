@@ -1,0 +1,446 @@
+{
+    "menuPrimary": {
+        "menu_1": [
+                      {
+                "text": "Магазин",
+                "url": "/shop",
+                "extraClass": "menu-item-has-children has-mega-menu",
+                "subClass": "sub-menu",
+                "mega": "true",
+                "megaContent": [
+                    {
+                        "heading": "Страницы каталога",
+                        "megaItems": [
+                            {
+                                "text": "Магазин основная",
+                                "url": "/shop"
+							},
+                            {
+                                "text": "Магазин",
+                                "url": "/shop/shop-fullwidth"
+							},
+                            {
+                                "text": "Магазин по категориям",
+                                "url": "/shop/shop-categories"
+							},
+                            {
+                                "text": "Магазин сайлбар",
+                                "url": "/shop/shop-sidebar"
+							},
+                            {
+                                "text": "Магазин без баннера",
+                                "url": "/shop/shop-sidebar-without-banner"
+							},
+                            {
+                                "text": "Магазин карусель",
+                                "url": "/shop/shop-carousel"
+							},
+                            {
+                                "text": "Товары",
+                                "url": "/product"
+							}
+						]
+					},
+                    {
+                        "heading": "Макет продукта",
+                        "megaItems": [
+                            {
+                                "text": "Основной",
+                                "url": "/product/3"
+							},
+                            {
+                                "text": "Расширеный",
+                                "url": "/product/extended/7"
+							},
+                            {
+                                "text": "Полный контент",
+                                "url": "/product/full-content/7"
+							},
+                            {
+                                "text": "В рамках",
+                                "url": "/product/boxed/7"
+							},
+                            {
+                                "text": "Сайдбар",
+                                "url": "/product/sidebar/7"
+							}
+						]
+					},
+                    {
+                        "heading": "Типы продуктов",
+                        "megaItems": [
+                            {
+                                "text": "Простой",
+                                "url": "/product/3"
+							},
+                            {
+                                "text": "Образцы изображений",
+                                "url": "/product/image-swatches/11"
+							},
+                            {
+                                "text": "Обратный отсчёт",
+                                "url": "/product/countdown/10"
+							},
+                            {
+                                "text": "Партнёр",
+                                "url": "/product/affiliate/7"
+							},
+                            {
+                                "text": "Продается",
+                                "url": "/product/on-sale/7"
+							},
+                            {
+                                "text": "Сгруппировано",
+                                "url": "/product/groupped/22"
+							},
+                            {
+                                "text": "Нет в наличии",
+                                "url": "/product/out-of-stock/7"
+							}
+						]
+					},
+                    {
+                        "heading": "Страницы электронной коммерции",
+                        "megaItems": [
+                            {
+                                "text": "Корзина",
+                                "url": "/account/shopping-cart"
+							},
+                            {
+                                "text": "Оформить заказ",
+                                "url": "/account/checkout"
+							},
+                            {
+                                "text": "Избранное",
+                                "url": "/account/wishlist"
+							},
+                            {
+                                "text": "Сравнить",
+                                "url": "/account/compare"
+							},
+                            {
+                                "text": "Отследить заказ",
+                                "url": "/account/order-tracking"
+							},
+                            {
+                                "text": "Мой аккаунт",
+                                "url": "/account/login"
+							},
+                            {
+                                "text": "Вход / Регистрация",
+                                "url": "/account/login"
+							}
+						]
+					}
+				]
+			},
+            {
+                "text": "Страницы",
+                "url": "",
+                "extraClass": "menu-item-has-children has-mega-menu",
+                "subClass": "sub-menu",
+                "mega": "true",
+                "megaContent": [
+                    {
+                        "heading": "Простая страница",
+                        "megaItems": [
+                            {
+                                "text": "О нас",
+                                "url": "/page/about-us"
+							},
+                            {
+                                "text": "Контакты",
+                                "url": "/page/contact-us"
+							},
+                            {
+                                "text": "ЧаВо",
+                                "url": "/page/faqs"
+							},
+                            {
+                                "text": "404 не найдено",
+                                "url": "/page/page-404"
+							}
+						]
+					},
+                    {
+                        "heading": "Страницы поставщика",
+                        "megaItems": [
+                            {
+                                "text": "Стать поставщиком",
+                                "url": "/vendor/become-a-vendor"
+							},
+                            {
+                                "text": "Поставщик",
+                                "url": "/store/global-office"
+							},
+                            {
+                                "text": "Список поставщиков",
+                                "url": "/stores"
+							},
+                            {
+                                "text": "Глоссарий",
+                                "url": "/vendor/glossary"
+							}
+						]
+					}
+				]
+			},
+            {
+                "text": "Блоги",
+                "url": "/blog",
+                "current": "shop",
+                "extraClass": "menu-item-has-children has-mega-menu",
+                "subClass": "sub-menu",
+                "mega": "true",
+                "megaContent": [
+                    {
+                        "heading": "Макет блога",
+                        "megaItems": [
+                            {
+                                "text": "Сетка",
+                                "url": "/blog"
+							},
+                            {
+                                "text": "Маленький палец",
+                                "url": "/blog/blog-small-thumbnail"
+							},
+                            {
+                                "text": "Левая боковая панель",
+                                "url": "/blog/blog-left-sidebar"
+							},
+                            {
+                                "text": "Правая боковая панель",
+                                "url": "/blog/blog-right-sidebar"
+							}
+						]
+					},
+                    {
+                        "heading": "Единый блог",
+                        "megaItems": [
+                            {
+                                "text": "Единый 1",
+                                "url": "/post/default"
+							},
+                            {
+                                "text": "Единый 2",
+                                "url": "/post/detail-2"
+							},
+                            {
+                                "text": "Единый 3",
+                                "url": "/post/detail-3"
+							}
+						]
+					}
+				]
+			},
+			{
+                "text": "Ресурсы",
+                "url": "/shop",
+                "current": "shop",
+                "extraClass": "menu-item-has-children has-mega-menu",
+                "subClass": "sub-menu",
+                "mega": "true",
+                "megaContent": [
+                    {
+                        "heading": "Маркетплейсы:",
+                        "megaItems": [
+                            {
+                                "text": "Маркетплейс туров и путевок",
+                                "url": "/home/autopart"
+							},
+                            {
+                                "text": "Маркетплейс рабочих мест",
+                                "url": "/home/technology"
+							},
+                            {
+                                "text": "Финансовый макркетплейс",
+                                "url": "/home/organic"
+							},
+                            {
+                                "text": "Новостной портал",
+                                "url": "/home/market-place"
+							}
+						]
+					}
+				]
+			}
+            
+		]
+	},
+    "product_categories": [
+        {
+            "icon": "icon-star",
+            "text": "Горячие предложения",
+            "url": "/shop"
+		},
+        {
+            "icon": "icon-laundry",
+            "text": "Бытовая электроника",
+            "url": "/shop",
+            "extraClass": "menu-item-has-children has-mega-menu",
+            "subClass": "sub-menu",
+            "mega": true,
+            "megaContent": [
+                {
+                    "heading": "Электроника",
+                    "megaItems": [
+                        {
+                            "text": "Домашнее аудио и кинотеатры",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "ТВ и видео",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Камера, фото и видео",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Мобильные телефоны и аксессуары",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Наушники",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Видеоигры",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Беспроводные динамики",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Офисная электроника",
+                            "url": "/shop"
+						}
+					]
+				},
+                {
+                    "heading": "Аксессуары и запчасти",
+                    "megaItems": [
+                        {
+                            "text": "Цифровые кабели",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Аудио и видео кабели",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Батареи",
+                            "url": "/shop"
+						}
+					]
+				}
+			]
+		},
+        {
+            "icon": "icon-shirt",
+            "text": "Одежда",
+            "url": "/shop"
+		},
+        {
+            "icon": "icon-lampshade",
+            "text": "Дом, сад и кухня",
+            "url": "/shop"
+		},
+        {
+            "icon": "icon-heart-pulse",
+            "text": "Красота и здоровье",
+            "url": "/shop"
+		},
+        {
+            "icon": "icon-diamond2",
+            "text": "Ювелирные изделия и часы",
+            "url": "/shop"
+		},
+        {
+            "icon": "icon-desktop",
+            "text": "Компьютерные технологии",
+            "url": "/shop",
+            "extraClass": "menu-item-has-children has-mega-menu",
+            "subClass": "sub-menu",
+            "megaContent": [
+                {
+                    "heading": "Компьютерные технологии",
+                    "megaItems": [
+                        {
+                            "text": "Компьютеры и планшеты",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Ноутбуки",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Мониторы",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Сеть",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Диск и хранилища",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Компьютерные комплектующие",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Безопасность и защита",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Игровые ноутбуки",
+                            "url": "/shop"
+						},
+                        {
+                            "text": "Аксессуары",
+                            "url": "/shop"
+						}
+					]
+				}
+			]
+		},
+        {
+            "icon": "icon-baby-bottle",
+            "text": "Младенцы и мамы",
+            "url": "/shop"
+		},
+        {
+            "icon": "icon-baseball",
+            "text": "Спорт и отдых",
+            "url": "/shop"
+		},
+        {
+            "icon": "icon-smartphone",
+            "text": "Телефоны и аксессуары",
+            "url": "/shop"
+		},
+        {
+            "icon": "icon-book2",
+            "text": "Книги и офис",
+            "url": "/shop"
+		},
+        {
+            "icon": "icon-car-siren",
+            "text": "Машины и мотоциклы",
+            "url": "/shop"
+		},
+        {
+            "icon": "icon-wrench",
+            "text": "Всё для ремонта",
+            "url": "/shop"
+		},
+        {
+            "icon": "icon-tag",
+            "text": "Ваучеры и услуги",
+            "url": "/shop"
+		}
+	]
+}
