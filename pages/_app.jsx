@@ -6,6 +6,7 @@ import '~/public/static/fonts/Linearicons/Font/demo-files/demo.css';
 import '~/public/static/fonts/font-awesome/css/font-awesome.min.css';
 import '~/public/static/css/bootstrap.min.css';
 import '~/public/static/css/slick.min.css';
+import '~/scss/global.css';
 import '~/scss/style.scss';
 import '~/scss/home-default.scss';
 import '~/scss/market-place-1.scss';
@@ -27,7 +28,7 @@ const App = ({ Component, pageProps: { session, ...pageProps } }) => {
     // const { check } = useCheckSession();
 
     // useEffect(() => {
-     //  check()
+    //  check()
     // }, [session])
 
     useLoaded();

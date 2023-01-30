@@ -54,6 +54,11 @@ const DemoLayouts = () => {
             image: '/static/img/demos/homepage/technology.jpg',
             link: '/home/technology',
         },
+        {
+            text: 'Travel',
+            image: '/static/img/demos/homepage/technology.jpg',
+            link: '/home/travel',
+        },
     ];
 
     return (
