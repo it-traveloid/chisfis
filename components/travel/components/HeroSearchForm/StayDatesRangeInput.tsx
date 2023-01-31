@@ -6,8 +6,8 @@ import {
 } from "react-dates";
 import { DateRage } from "./StaySearchForm";
 import { FC } from "react";
-import useWindowSize from "hooks/useWindowResize";
-import useNcId from "hooks/useNcId";
+import useWindowSize from "../../hooks/useWindowResize";
+import useNcId from "../../hooks/useNcId";
 
 export interface StayDatesRangeInputProps {
   defaultValue: DateRage;
@@ -36,7 +36,7 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
   const [stateDate, setStateDate] = useState(defaultValue);
   const startDateId = useNcId();
   const endDateId = useNcId();
-  const windowSize = useWindowSize();
+  // const windowSize = useWindowSize();
 
   useEffect(() => {
     setStateDate(defaultValue);
@@ -55,9 +55,8 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
     const focused = focusedInput === "startDate";
     return (
       <div
-        className={`relative flex ${fieldClassName} items-center space-x-3 cursor-pointer ${
-          focused ? "nc-hero-field-focused" : " "
-        }`}
+        className={`relative flex ${fieldClassName} items-center space-x-3 cursor-pointer ${focused ? "nc-hero-field-focused" : " "
+          }`}
       >
         <div className="text-neutral-300 dark:text-neutral-400">
           <svg
@@ -93,9 +92,8 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
     const focused = focusedInput === "endDate";
     return (
       <div
-        className={`relative flex ${fieldClassName} items-center space-x-3 cursor-pointer ${
-          focused ? "nc-hero-field-focused" : " "
-        }`}
+        className={`relative flex ${fieldClassName} items-center space-x-3 cursor-pointer ${focused ? "nc-hero-field-focused" : " "
+          }`}
       >
         <div className="text-neutral-300 dark:text-neutral-400">
           <svg
@@ -129,12 +127,11 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
 
   return (
     <div
-      className={`StayDatesRangeInput relative flex z-10 ${className} ${
-        !!focusedInput ? "nc-date-focusedInput" : "nc-date-not-focusedInput"
-      }`}
+      className={`StayDatesRangeInput relative flex z-10 ${className} ${!!focusedInput ? "nc-date-focusedInput" : "nc-date-not-focusedInput"
+        }`}
     >
       <div className="absolute inset-0 flex">
-        <DateRangePicker
+        {/* <DateRangePicker
           startDate={stateDate.startDate}
           endDate={stateDate.endDate}
           focusedInput={focusedInput}
@@ -162,7 +159,7 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
           anchorDirection={anchorDirection}
           customArrowIcon={<div />}
           reopenPickerOnClearDates
-        />
+        /> */}
       </div>
 
       <div className={`flex-1 grid grid-cols-2 relative ${wrapClassName}`}>

@@ -17,6 +17,7 @@ import '~/scss/electronic.scss';
 import '~/scss/furniture.scss';
 import '~/scss/organic.scss';
 import '~/scss/technology.scss';
+import '~/scss/travel.scss';
 import '~/scss/autopart.scss';
 import Head from 'next/head';
 import { SessionProvider } from "next-auth/react"

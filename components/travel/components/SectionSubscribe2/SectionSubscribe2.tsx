@@ -1,9 +1,9 @@
 import React, { FC } from "react";
-import ButtonCircle from "shared/Button/ButtonCircle";
-import rightImg from "images/SVG-subcribe2.png";
-import NcImage from "shared/NcImage/NcImage";
-import Badge from "shared/Badge/Badge";
-import Input from "shared/Input/Input";
+import ButtonCircle from "../../shared/Button/ButtonCircle";
+import rightImg from "../../images/SVG-subcribe2.png";
+import NcImage from "../../shared/NcImage/NcImage";
+import Badge from "../../shared/Badge/Badge";
+import Input from "../../shared/Input/Input";
 
 export interface SectionSubscribe2Props {
   className?: string;
@@ -52,7 +52,7 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
         </form>
       </div>
       <div className="flex-grow">
-        <NcImage src={rightImg} />
+        <NcImage src={rightImg.src} />
       </div>
     </div>
   );

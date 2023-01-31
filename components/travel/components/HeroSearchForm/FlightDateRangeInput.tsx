@@ -10,10 +10,10 @@ import { FC } from "react";
 import { Listbox } from "@headlessui/react";
 import { CheckIcon } from "@heroicons/react/24/solid";
 import { TimeRage } from "./RentalCarSearchForm";
-import useWindowSize from "hooks/useWindowResize";
+import useWindowSize from "../../hooks/useWindowResize";
 import ButtonSubmit from "./ButtonSubmit";
-import { PathName } from "routers/types";
-import useNcId from "hooks/useNcId";
+import { PathName } from "../../routers/types";
+import useNcId from "../../hooks/useNcId";
 import { TypeDropOffLocationType } from "./FlightSearchForm";
 
 type Fields = "pickUp" | "dropOff";
@@ -63,7 +63,7 @@ const FlightDateRangeInput: FC<FlightDateRangeInputProps> = ({
     setFocusedInput(defaultFocus);
   }, [defaultFocus]);
 
-  const windowSize = useWindowSize();
+  // const windowSize = useWindowSize();
 
   const handleDateFocusChange = (focus: FocusedInputShape | null) => {
     setFocusedInput(focus);
@@ -149,10 +149,9 @@ const FlightDateRangeInput: FC<FlightDateRangeInputProps> = ({
             <Listbox.Option
               key={index}
               className={({ active }) =>
-                `${
-                  active
-                    ? "text-amber-900 bg-amber-100"
-                    : "text-gray-900 dark:text-neutral-200"
+                `${active
+                  ? "text-amber-900 bg-amber-100"
+                  : "text-gray-900 dark:text-neutral-200"
                 } cursor-default select-none relative py-2 pl-10 pr-4`
               }
               value={time}
@@ -160,17 +159,15 @@ const FlightDateRangeInput: FC<FlightDateRangeInputProps> = ({
               {({ selected, active }) => (
                 <>
                   <span
-                    className={`${
-                      selected ? "font-medium" : "font-normal"
-                    } block truncate`}
+                    className={`${selected ? "font-medium" : "font-normal"
+                      } block truncate`}
                   >
                     {time}
                   </span>
                   {selected ? (
                     <span
-                      className={`${
-                        active ? "text-amber-600" : "text-amber-600"
-                      }  absolute inset-y-0 left-0 flex items-center pl-3`}
+                      className={`${active ? "text-amber-600" : "text-amber-600"
+                        }  absolute inset-y-0 left-0 flex items-center pl-3`}
                     >
                       <CheckIcon className="w-5 h-5" aria-hidden="true" />
                     </span>
@@ -188,9 +185,8 @@ const FlightDateRangeInput: FC<FlightDateRangeInputProps> = ({
     const focused = focusedInput === "startDate";
     return (
       <div
-        className={`flex relative flex-1 items-center cursor-pointer ${
-          focused ? "nc-hero-field-focused" : " "
-        }`}
+        className={`flex relative flex-1 items-center cursor-pointer ${focused ? "nc-hero-field-focused" : " "
+          }`}
       >
         <div className={`flex-1 flex ${fieldClassName} space-x-3 items-center`}>
           <div className="text-neutral-300 dark:text-neutral-400">
@@ -240,9 +236,8 @@ const FlightDateRangeInput: FC<FlightDateRangeInputProps> = ({
     const focused = focusedInput === "endDate";
     return (
       <div
-        className={`flex relative flex-[1.4] items-center cursor-pointer ${
-          focused ? "nc-hero-field-focused" : " "
-        }`}
+        className={`flex relative flex-[1.4] items-center cursor-pointer ${focused ? "nc-hero-field-focused" : " "
+          }`}
       >
         <div className={`flex-1 flex ${fieldClassName} space-x-3 items-center`}>
           <div className="text-neutral-300 dark:text-neutral-400">
@@ -288,14 +283,12 @@ const FlightDateRangeInput: FC<FlightDateRangeInputProps> = ({
 
   return (
     <div
-      className={`FlightDateRangeInput relative flex z-10 ${className} ${
-        dropOffLocationType === "oneWay" ? "flex-[0.5] " : "flex-1"
-      } ${
-        !!focusedInput ? "nc-date-focusedInput" : "nc-date-not-focusedInput"
-      }`}
+      className={`FlightDateRangeInput relative flex z-10 ${className} ${dropOffLocationType === "oneWay" ? "flex-[0.5] " : "flex-1"
+        } ${!!focusedInput ? "nc-date-focusedInput" : "nc-date-not-focusedInput"
+        }`}
     >
       <div className="absolute inset-0 flex">
-        {dropOffLocationType === "oneWay" ? (
+        {/* {dropOffLocationType === "oneWay" ? (
           <SingleDatePicker
             date={stateDate.startDate}
             onDateChange={(date) => {
@@ -349,7 +342,7 @@ const FlightDateRangeInput: FC<FlightDateRangeInputProps> = ({
             anchorDirection={anchorDirection}
             reopenPickerOnClearDates
           />
-        )}
+        )} */}
       </div>
 
       <div className={`flex-1 ${wrapFieldClassName}`}>

@@ -1,8 +1,9 @@
-@import "./themes/travel/_theme_colors";
-@import "./themes/travel/_theme_font";
-@import "./themes/travel/_theme_custom";
-@import "./themes/travel/_dates";
+@import "themes/travel/theme_colors";
+@import "themes/travel/theme_font";
+@import "themes/travel/theme_custom";
+@import "themes/travel/dates";
+
 //
-@import "./themes/travel/header";
+@import "themes/travel/header";
 
 @import "../node_modules/@glidejs/glide/src/assets/sass/glide.core";

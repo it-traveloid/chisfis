@@ -1,9 +1,9 @@
 import React, { FC } from "react";
-import { TaxonomyType } from "data/types";
-import { Link } from "react-router-dom";
-import NcImage from "shared/NcImage/NcImage";
-import Badge from "shared/Badge/Badge";
-import convertNumbThousand from "utils/convertNumbThousand";
+import { TaxonomyType } from "../../data/types";
+import Link from "next/link";
+import NcImage from "../../shared/NcImage/NcImage";
+import Badge from "../../shared/Badge/Badge";
+import convertNumbThousand from "../../utils/convertNumbThousand";
 
 export interface CardCategoryBox1Props {
   className?: string;
@@ -17,7 +17,7 @@ const CardCategoryBox1: FC<CardCategoryBox1Props> = ({
   const { count, name, thumbnail, href = "/" } = taxonomy;
   return (
     <Link
-      to={href}
+      href={href}
       className={`nc-CardCategoryBox1 relative flex items-center p-3 sm:p-6 [ nc-box-has-hover ] [ nc-dark-box-bg-has-hover ]  ${className}`}
       data-nc-id="CardCategoryBox1"
     >

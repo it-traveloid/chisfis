@@ -1,12 +1,12 @@
 import React, { FC, useEffect, useMemo } from "react";
-import Heading from "components/Heading/Heading";
-import Glide from "@glidejs/glide";
-import { TaxonomyType } from "data/types";
-import CardCategory3 from "components/CardCategory3/CardCategory3";
-import CardCategory4 from "components/CardCategory4/CardCategory4";
-import NextPrev from "shared/NextPrev/NextPrev";
-import CardCategory5 from "components/CardCategory5/CardCategory5";
-import useNcId from "hooks/useNcId";
+import Heading from "../../components/Heading/Heading";
+import Glide from "@glidejs/glide/dist/glide.modular.esm";
+import { TaxonomyType } from "../../data/types";
+import CardCategory3 from "../../components/CardCategory3/CardCategory3";
+import CardCategory4 from "../../components/CardCategory4/CardCategory4";
+import NextPrev from "../../shared/NextPrev/NextPrev";
+import CardCategory5 from "../../components/CardCategory5/CardCategory5";
+import useNcId from "../../hooks/useNcId";
 
 export interface SectionSliderNewCategoriesProps {
   className?: string;

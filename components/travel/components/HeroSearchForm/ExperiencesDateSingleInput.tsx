@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { SingleDatePicker, AnchorDirectionShape } from "react-dates";
 import { FC } from "react";
 import moment from "moment";
-import useWindowSize from "hooks/useWindowResize";
-import useNcId from "hooks/useNcId";
+import useWindowSize from "../../hooks/useWindowResize";
+import useNcId from "../../hooks/useNcId";
 
 export interface ExperiencesDateSingleInputProps {
   defaultValue: moment.Moment | null;
@@ -28,7 +28,7 @@ const ExperiencesDateSingleInput: FC<ExperiencesDateSingleInputProps> = ({
   const [startDate, setStartDate] = useState(defaultValue);
   const startDateId = useNcId();
 
-  const windowSize = useWindowSize();
+  // const windowSize = useWindowSize();
 
   useEffect(() => {
     setStartDate(defaultValue);
@@ -47,9 +47,8 @@ const ExperiencesDateSingleInput: FC<ExperiencesDateSingleInputProps> = ({
     const focused = focusedInput;
     return (
       <div
-        className={`flex-1 flex relative ${fieldClassName} items-center space-x-3 cursor-pointer ${
-          focused ? "nc-hero-field-focused" : ""
-        }`}
+        className={`flex-1 flex relative ${fieldClassName} items-center space-x-3 cursor-pointer ${focused ? "nc-hero-field-focused" : ""
+          }`}
       >
         <div className="text-neutral-300 dark:text-neutral-400">
           <svg
@@ -81,12 +80,11 @@ const ExperiencesDateSingleInput: FC<ExperiencesDateSingleInputProps> = ({
 
   return (
     <div
-      className={`ExperiencesDateSingleInput relative flex ${className} ${
-        !!focusedInput ? "nc-date-focusedInput" : "nc-date-not-focusedInput"
-      }`}
+      className={`ExperiencesDateSingleInput relative flex ${className} ${!!focusedInput ? "nc-date-focusedInput" : "nc-date-not-focusedInput"
+        }`}
     >
       <div className="absolute inset-0 flex">
-        <SingleDatePicker
+        {/* <SingleDatePicker
           date={startDate}
           onDateChange={(date) => {
             setStartDate(date);
@@ -103,7 +101,7 @@ const ExperiencesDateSingleInput: FC<ExperiencesDateSingleInputProps> = ({
           anchorDirection={anchorDirection}
           showClearDate
           reopenPickerOnClearDate
-        />
+        /> */}
       </div>
 
       {renderInputCheckInDate()}

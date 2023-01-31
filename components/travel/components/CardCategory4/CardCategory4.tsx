@@ -1,8 +1,8 @@
 import React, { FC } from "react";
-import NcImage from "shared/NcImage/NcImage";
-import { TaxonomyType } from "data/types";
-import { Link } from "react-router-dom";
-import convertNumbThousand from "utils/convertNumbThousand";
+import NcImage from "../../shared/NcImage/NcImage";
+import { TaxonomyType } from "../../data/types";
+import Link from "next/link";
+import convertNumbThousand from "../../utils/convertNumbThousand";
 
 export interface CardCategory4Props {
   className?: string;
@@ -16,7 +16,7 @@ const CardCategory4: FC<CardCategory4Props> = ({
   const { count, name, href = "/", thumbnail, listingType } = taxonomy;
   return (
     <Link
-      to={href}
+      href={href}
       className={`nc-CardCategory4 flex flex-col ${className}`}
       data-nc-id="CardCategory4"
     >

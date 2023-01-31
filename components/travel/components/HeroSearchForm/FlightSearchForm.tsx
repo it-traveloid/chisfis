@@ -6,7 +6,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import { Fragment } from "react";
 import moment from "moment";
-import NcInputNumber from "components/NcInputNumber/NcInputNumber";
+import NcInputNumber from "../../components/NcInputNumber/NcInputNumber";
 import FlightDateRangeInput from "./FlightDateRangeInput";
 
 export interface DateRage {
@@ -93,9 +93,8 @@ const FlightSearchForm: FC<FlightSearchFormProps> = ({ haveDefaultValue }) => {
               >
                 <span>{`${guests} Guest`}</span>
                 <ChevronDownIcon
-                  className={`${
-                    open ? "" : "text-opacity-70"
-                  } ml-2 h-4 w-4 group-hover:text-opacity-80 transition ease-in-out duration-150`}
+                  className={`${open ? "" : "text-opacity-70"
+                    } ml-2 h-4 w-4 group-hover:text-opacity-80 transition ease-in-out duration-150`}
                   aria-hidden="true"
                 />
               </Popover.Button>
@@ -142,9 +141,8 @@ const FlightSearchForm: FC<FlightSearchFormProps> = ({ haveDefaultValue }) => {
               >
                 <span>{`${flightClassState}`}</span>
                 <ChevronDownIcon
-                  className={`${
-                    open ? "" : "text-opacity-70"
-                  } ml-2 h-4 w-4 group-hover:text-opacity-80 transition ease-in-out duration-150`}
+                  className={`${open ? "" : "text-opacity-70"
+                    } ml-2 h-4 w-4 group-hover:text-opacity-80 transition ease-in-out duration-150`}
                   aria-hidden="true"
                 />
               </Popover.Button>
@@ -189,21 +187,19 @@ const FlightSearchForm: FC<FlightSearchFormProps> = ({ haveDefaultValue }) => {
     return (
       <div className=" py-5 [ nc-hero-field-padding ] flex flex-row flex-wrap border-b border-neutral-100 dark:border-neutral-700">
         <div
-          className={`py-1.5 px-4 flex items-center rounded-full font-medium text-xs cursor-pointer mr-2 my-1 sm:mr-4 ${
-            dropOffLocationType === "roundTrip"
+          className={`py-1.5 px-4 flex items-center rounded-full font-medium text-xs cursor-pointer mr-2 my-1 sm:mr-4 ${dropOffLocationType === "roundTrip"
               ? "bg-black shadow-black/10 shadow-lg text-white"
               : "border border-neutral-300 dark:border-neutral-700"
-          }`}
+            }`}
           onClick={(e) => setDropOffLocationType("roundTrip")}
         >
           Round-trip
         </div>
         <div
-          className={`py-1.5 px-4 flex items-center rounded-full font-medium text-xs cursor-pointer mr-2 my-1 sm:mr-4 ${
-            dropOffLocationType === "oneWay"
+          className={`py-1.5 px-4 flex items-center rounded-full font-medium text-xs cursor-pointer mr-2 my-1 sm:mr-4 ${dropOffLocationType === "oneWay"
               ? "bg-black text-white shadow-black/10 shadow-lg"
               : "border border-neutral-300 dark:border-neutral-700"
-          }`}
+            }`}
           onClick={(e) => setDropOffLocationType("oneWay")}
         >
           One-way

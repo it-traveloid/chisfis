@@ -1,11 +1,11 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import NcInputNumber from "components/NcInputNumber/NcInputNumber";
+import NcInputNumber from "../../components/NcInputNumber/NcInputNumber";
 import { FC } from "react";
 import ClearDataButton from "./ClearDataButton";
 import ButtonSubmit from "./ButtonSubmit";
-import { GuestsObject } from "components/HeroSearchForm2Mobile/GuestsInput";
-import { PathName } from "routers/types";
+import { GuestsObject } from "../../components/HeroSearchForm2Mobile/GuestsInput";
+import { PathName } from "../../routers/types";
 
 export interface GuestsInputProps {
   defaultValue: GuestsObject;
@@ -69,9 +69,8 @@ const GuestsInput: FC<GuestsInputProps> = ({
       {({ open }) => (
         <>
           <div
-            className={`flex-1 flex items-center focus:outline-none cursor-pointer ${
-              open ? "nc-hero-field-focused" : ""
-            }`}
+            className={`flex-1 flex items-center focus:outline-none cursor-pointer ${open ? "nc-hero-field-focused" : ""
+              }`}
           >
             <Popover.Button
               className={`flex-1 flex text-left items-center ${fieldClassName} space-x-3 `}

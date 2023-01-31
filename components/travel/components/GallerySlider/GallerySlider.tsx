@@ -1,4 +1,4 @@
-import Glide from "@glidejs/glide";
+import Glide from "@glidejs/glide/dist/glide.modular.esm";
 import useNcId from "../../hooks/useNcId";
 import React, { FC, useEffect, useMemo } from "react";
 import NcImage from "../../shared/NcImage/NcImage";
@@ -22,19 +22,19 @@ const GallerySlider: FC<GallerySliderProps> = ({
 }) => {
   const UNIQUE_CLASS = `gallerySlider__${uniqueID}` + useNcId();
 
-  // let MY_GLIDEJS = useMemo(() => {
-  //   return new Glide(`.${UNIQUE_CLASS}`, {
-  //     perView: 1,
-  //     gap: 0,
-  //     keyboard: false,
-  //   });
-  // }, [UNIQUE_CLASS]);
+  let MY_GLIDEJS = useMemo(() => {
+    return new Glide(`.${UNIQUE_CLASS}`, {
+      perView: 1,
+      gap: 0,
+      keyboard: false,
+    });
+  }, [UNIQUE_CLASS]);
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     MY_GLIDEJS.mount();
-  //   }, 10);
-  // }, [MY_GLIDEJS, UNIQUE_CLASS, galleryImgs]);
+  useEffect(() => {
+    setTimeout(() => {
+      MY_GLIDEJS.mount();
+    }, 10);
+  }, [MY_GLIDEJS, UNIQUE_CLASS, galleryImgs]);
 
   const renderDots = () => {
     return (

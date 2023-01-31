@@ -1,30 +1,30 @@
 import React, { FC, useState } from "react";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
-import LocationMarker from "components/AnyReactComponent/LocationMarker";
-import CommentListing from "components/CommentListing/CommentListing";
-import FiveStartIconForRate from "components/FiveStartIconForRate/FiveStartIconForRate";
-import { DateRage } from "components/HeroSearchForm/StaySearchForm";
-import StartRating from "components/StartRating/StartRating";
+import LocationMarker from "../../components/AnyReactComponent/LocationMarker";
+import CommentListing from "../../components/CommentListing/CommentListing";
+import FiveStartIconForRate from "../../components/FiveStartIconForRate/FiveStartIconForRate";
+import { DateRage } from "../../components/HeroSearchForm/StaySearchForm";
+import StartRating from "../../components/StartRating/StartRating";
 import GoogleMapReact from "google-map-react";
-import useWindowSize from "hooks/useWindowResize";
+import useWindowSize from "../../hooks/useWindowResize";
 import moment from "moment";
 import {
   DayPickerRangeController,
   FocusedInputShape,
   isInclusivelyAfterDay,
 } from "react-dates";
-import Avatar from "shared/Avatar/Avatar";
-import Badge from "shared/Badge/Badge";
-import ButtonCircle from "shared/Button/ButtonCircle";
-import ButtonPrimary from "shared/Button/ButtonPrimary";
-import ButtonSecondary from "shared/Button/ButtonSecondary";
-import Input from "shared/Input/Input";
-import NcImage from "shared/NcImage/NcImage";
+import Avatar from "../../shared/Avatar/Avatar";
+import Badge from "../../shared/Badge/Badge";
+import ButtonCircle from "../../shared/Button/ButtonCircle";
+import ButtonPrimary from "../../shared/Button/ButtonPrimary";
+import ButtonSecondary from "../../shared/Button/ButtonSecondary";
+import Input from "../../shared/Input/Input";
+import NcImage from "../../shared/NcImage/NcImage";
 import LikeSaveBtns from "./LikeSaveBtns";
 import ModalPhotos from "./ModalPhotos";
-import BackgroundSection from "components/BackgroundSection/BackgroundSection";
-import SectionSliderNewCategories from "components/SectionSliderNewCategories/SectionSliderNewCategories";
-import SectionSubscribe2 from "components/SectionSubscribe2/SectionSubscribe2";
+import BackgroundSection from "../../components/BackgroundSection/BackgroundSection";
+import SectionSliderNewCategories from "../../components/SectionSliderNewCategories/SectionSliderNewCategories";
+import SectionSubscribe2 from "../../components/SectionSubscribe2/SectionSubscribe2";
 import carUtilities1 from "images/carUtilities/1.png";
 import carUtilities2 from "images/carUtilities/2.png";
 import carUtilities3 from "images/carUtilities/3.png";
@@ -33,8 +33,8 @@ import carUtilities5 from "images/carUtilities/5.png";
 import carUtilities6 from "images/carUtilities/6.png";
 import carUtilities7 from "images/carUtilities/7.png";
 import carUtilities8 from "images/carUtilities/8.png";
-import RentalCarDatesRangeInput from "components/HeroSearchForm/RentalCarDatesRangeInput";
-import { TimeRage } from "components/HeroSearchForm/RentalCarSearchForm";
+import RentalCarDatesRangeInput from "../../components/HeroSearchForm/RentalCarDatesRangeInput";
+import { TimeRage } from "../../components/HeroSearchForm/RentalCarSearchForm";
 import MobileFooterSticky from "./MobileFooterSticky";
 
 export interface ListingCarDetailPageProps {
@@ -96,20 +96,20 @@ const ListingCarDetailPage: FC<ListingCarDetailPageProps> = ({
   const [focusedInputSectionCheckDate, setFocusedInputSectionCheckDate] =
     useState<FocusedInputShape>("startDate");
 
-  const windowSize = useWindowSize();
+  // const windowSize = useWindowSize();
 
-  const getDaySize = () => {
-    if (windowSize.width <= 375) {
-      return 34;
-    }
-    if (windowSize.width <= 500) {
-      return undefined;
-    }
-    if (windowSize.width <= 1280) {
-      return 56;
-    }
-    return 48;
-  };
+  // const getDaySize = () => {
+  //   if (windowSize.width <= 375) {
+  //     return 34;
+  //   }
+  //   if (windowSize.width <= 500) {
+  //     return undefined;
+  //   }
+  //   if (windowSize.width <= 1280) {
+  //     return 56;
+  //   }
+  //   return 48;
+  // };
 
   const handleOpenModal = (index: number) => {
     setIsOpen(true);
@@ -194,7 +194,7 @@ const ListingCarDetailPage: FC<ListingCarDetailPageProps> = ({
           {Amenities_demos.map((item, index) => (
             <div key={index} className="flex items-center space-x-4 ">
               <div className="w-10 flex-shrink-0">
-                <img src={item.icon} alt="" />
+                <img src={item.icon.src} alt="" />
               </div>
               <span>{item.name}</span>
             </div>
@@ -274,8 +274,8 @@ const ListingCarDetailPage: FC<ListingCarDetailPageProps> = ({
                 setFocusedInputSectionCheckDate(focusedInput || "startDate")
               }
               initialVisibleMonth={null}
-              numberOfMonths={windowSize.width < 1280 ? 1 : 2}
-              daySize={getDaySize()}
+              // numberOfMonths={windowSize.width < 1280 ? 1 : 2}
+              // daySize={getDaySize()}
               hideKeyboardShortcutsPanel
               isOutsideRange={(day) => !isInclusivelyAfterDay(day, moment())}
             />
@@ -641,9 +641,8 @@ const ListingCarDetailPage: FC<ListingCarDetailPageProps> = ({
             {PHOTOS.filter((_, i) => i >= 2 && i < 4).map((item, index) => (
               <div
                 key={index}
-                className={`relative rounded-md sm:rounded-xl overflow-hidden ${
-                  index >= 2 ? "block" : ""
-                }`}
+                className={`relative rounded-md sm:rounded-xl overflow-hidden ${index >= 2 ? "block" : ""
+                  }`}
               >
                 <NcImage
                   containerClassName="aspect-w-4 aspect-h-3"

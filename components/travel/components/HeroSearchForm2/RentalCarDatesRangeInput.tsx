@@ -9,9 +9,9 @@ import { FC } from "react";
 import { Listbox } from "@headlessui/react";
 import { CheckIcon } from "@heroicons/react/24/solid";
 import { TimeRage } from "./RentalCarSearchForm";
-import useWindowSize from "hooks/useWindowResize";
+import useWindowSize from "../../hooks/useWindowResize";
 import ButtonSubmit from "./ButtonSubmit";
-import useNcId from "hooks/useNcId";
+import useNcId from "../../hooks/useNcId";
 
 type Fields = "pickUp" | "dropOff";
 
@@ -60,7 +60,7 @@ const RentalCarDatesRangeInput: FC<RentalCarDatesRangeInputProps> = ({
     }
   }, [stateDate, stateTimeRage]);
 
-  const windowSize = useWindowSize();
+  // const windowSize = useWindowSize();
 
   const handleDateFocusChange = (focus: FocusedInputShape | null) => {
     setFocusedInput(focus);
@@ -154,10 +154,9 @@ const RentalCarDatesRangeInput: FC<RentalCarDatesRangeInputProps> = ({
             <Listbox.Option
               key={index}
               className={({ active }) =>
-                `${
-                  active
-                    ? "text-amber-900 bg-amber-100"
-                    : "text-gray-900 dark:text-neutral-200"
+                `${active
+                  ? "text-amber-900 bg-amber-100"
+                  : "text-gray-900 dark:text-neutral-200"
                 } cursor-default select-none relative py-2 pl-10 pr-4`
               }
               value={time}
@@ -165,17 +164,15 @@ const RentalCarDatesRangeInput: FC<RentalCarDatesRangeInputProps> = ({
               {({ selected, active }) => (
                 <>
                   <span
-                    className={`${
-                      selected ? "font-medium" : "font-normal"
-                    } block truncate`}
+                    className={`${selected ? "font-medium" : "font-normal"
+                      } block truncate`}
                   >
                     {time}
                   </span>
                   {selected ? (
                     <span
-                      className={`${
-                        active ? "text-amber-600" : "text-amber-600"
-                      }  absolute inset-y-0 left-0 flex items-center pl-3`}
+                      className={`${active ? "text-amber-600" : "text-amber-600"
+                        }  absolute inset-y-0 left-0 flex items-center pl-3`}
                     >
                       <CheckIcon className="w-5 h-5" aria-hidden="true" />
                     </span>
@@ -193,9 +190,8 @@ const RentalCarDatesRangeInput: FC<RentalCarDatesRangeInputProps> = ({
     const focused = focusedInput === "startDate";
     return (
       <div
-        className={`flex flex-1 relative ${fieldClassName} items-center space-x-3 cursor-pointer ${
-          focused ? "nc-hero-field-focused--2" : " "
-        }`}
+        className={`flex flex-1 relative ${fieldClassName} items-center space-x-3 cursor-pointer ${focused ? "nc-hero-field-focused--2" : " "
+          }`}
       >
         <div className="flex-1 ">
           <div className="absolute inset-0" />
@@ -221,9 +217,8 @@ const RentalCarDatesRangeInput: FC<RentalCarDatesRangeInputProps> = ({
     const focused = focusedInput === "endDate";
     return (
       <div
-        className={`flex relative flex-[1.8] items-center cursor-pointer ${
-          focused ? "nc-hero-field-focused--2" : " "
-        }`}
+        className={`flex relative flex-[1.8] items-center cursor-pointer ${focused ? "nc-hero-field-focused--2" : " "
+          }`}
       >
         <div className={`flex-1 ${fieldClassName}`}>
           <div className="absolute inset-0" />
@@ -250,9 +245,8 @@ const RentalCarDatesRangeInput: FC<RentalCarDatesRangeInputProps> = ({
 
   return (
     <div
-      className={`RentalCarDatesRangeInput relative flex z-10 ${className} ${
-        !!focusedInput ? "nc-date-focusedInput" : "nc-date-not-focusedInput"
-      }`}
+      className={`RentalCarDatesRangeInput relative flex z-10 ${className} ${!!focusedInput ? "nc-date-focusedInput" : "nc-date-not-focusedInput"
+        }`}
     >
       <div className="absolute inset-0 flex">
         <DateRangePicker

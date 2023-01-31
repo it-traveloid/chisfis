@@ -1,8 +1,8 @@
 import React, { FC } from "react";
-import NcImage from "shared/NcImage/NcImage";
-import rightImgDemo from "images/BecomeAnAuthorImg.png";
-import ButtonPrimary from "shared/Button/ButtonPrimary";
-import Logo from "shared/Logo/Logo";
+import NcImage from "../../shared/NcImage/NcImage";
+import rightImgDemo from "../../images/BecomeAnAuthorImg.png";
+import ButtonPrimary from "../../shared/Button/ButtonPrimary";
+import Logo from "../../shared/Logo/Logo";
 
 export interface SectionBecomeAnAuthorProps {
   className?: string;

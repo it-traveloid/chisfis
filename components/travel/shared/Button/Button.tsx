@@ -1,7 +1,7 @@
 import React, { ButtonHTMLAttributes, FC } from "react";
-import { Link, LinkProps } from "react-router-dom";
-import { LocationStates } from "routers/types";
-import twFocusClass from "utils/twFocusClass";
+import Link, { LinkProps } from "next/link";
+import { LocationStates } from "../../routers/types";
+import twFocusClass from "../../utils/twFocusClass";
 
 export interface ButtonProps {
   className?: string;
@@ -12,7 +12,7 @@ export interface ButtonProps {
   loading?: boolean;
   disabled?: boolean;
   type?: ButtonHTMLAttributes<HTMLButtonElement>["type"];
-  href?: keyof LocationStates | "#" | LinkProps["to"];
+  href?: keyof LocationStates | "#" | LinkProps["href"];
   targetBlank?: boolean;
   onClick?: () => void;
   children?: React.ReactNode;
@@ -29,7 +29,7 @@ const Button: FC<ButtonProps> = ({
   targetBlank,
   type,
   loading,
-  onClick = () => {},
+  onClick = () => { },
 }) => {
   const CLASSES =
     `nc-Button relative h-auto inline-flex items-center justify-center rounded-full transition-colors ${fontSize} ${sizeClass} ${translate} ${className} ` +
@@ -63,7 +63,7 @@ const Button: FC<ButtonProps> = ({
   if (!!href) {
     return (
       <Link
-        to={href}
+        href={href}
         target={targetBlank ? "_blank" : undefined}
         className={`${CLASSES} `}
         onClick={onClick}
