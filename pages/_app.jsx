@@ -1,28 +1,28 @@
 import { useEffect } from 'react';
-import { wrapper } from '~/store/store';
+import { wrapper } from '../store/store';
 import { CookiesProvider } from 'react-cookie';
-import MasterLayout from '~/components/layouts/MasterLayout';
-import '~/public/static/fonts/Linearicons/Font/demo-files/demo.css';
-import '~/public/static/fonts/font-awesome/css/font-awesome.min.css';
-import '~/public/static/css/bootstrap.min.css';
-import '~/public/static/css/slick.min.css';
-import '~/scss/global.css';
-import '~/scss/style.scss';
-import '~/scss/home-default.scss';
-import '~/scss/market-place-1.scss';
-import '~/scss/market-place-2.scss';
-import '~/scss/market-place-3.scss';
-import '~/scss/market-place-4.scss';
-import '~/scss/electronic.scss';
-import '~/scss/furniture.scss';
-import '~/scss/organic.scss';
-import '~/scss/technology.scss';
-import '~/scss/travel.scss';
-import '~/scss/autopart.scss';
+import MasterLayout from '..//components/layouts/MasterLayout';
+import '../public/static/fonts/Linearicons/Font/demo-files/demo.css';
+import '../public/static/fonts/font-awesome/css/font-awesome.min.css';
+import '../public/static/css/bootstrap.min.css';
+import '../public/static/css/slick.min.css';
+import '../scss/global.css';
+import '../scss/style.scss';
+import '../scss/home-default.scss';
+import '../scss/market-place-1.scss';
+import '../scss/market-place-2.scss';
+import '../scss/market-place-3.scss';
+import '../scss/market-place-4.scss';
+import '../scss/electronic.scss';
+import '../scss/furniture.scss';
+import '../scss/organic.scss';
+import '../scss/technology.scss';
+import '../scss/travel.scss';
+import '../scss/autopart.scss';
 import Head from 'next/head';
 import { SessionProvider } from "next-auth/react"
 // import { useSession } from "next-auth/react"
-// import { useCheckSession } from '~/hooks/useCheckSession';
+// import { useCheckSession } from '../hooks/useCheckSession';
 
 const App = ({ Component, pageProps: { session, ...pageProps } }) => {
     // const { data: session } = useSession();
