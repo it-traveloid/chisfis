@@ -1,7 +1,8 @@
 import React, { FC } from "react";
 import { AuthorType } from "../../data/types";
 import { StarIcon } from "@heroicons/react/24/solid";
-import { Link } from "../../react-router-dom";
+// import { Link } from "../../react-router-dom";
+import { Link } from 'next/link';
 import Avatar from "../../shared/Avatar/Avatar";
 import Badge from "../../shared/Badge/Badge";
 

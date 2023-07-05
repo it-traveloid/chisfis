@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import { TaxonomyType } from "../../data/types";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from 'next/link';
 import NcImage from "../../shared/NcImage/NcImage";
 
 export interface CardCategory1Props {
