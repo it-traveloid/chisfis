@@ -48,7 +48,7 @@ const Card12: FC<Card12Props> = ({
         <h2
           className={`nc-card-title block font-semibold text-neutral-900 dark:text-neutral-100 transition-colors text-lg sm:text-2xl`}
         >
-          <Link to={href} className="line-clamp-2" title={title}>
+          <Link href={href} className="line-clamp-2" title={title}>
             {title}
           </Link>
         </h2>

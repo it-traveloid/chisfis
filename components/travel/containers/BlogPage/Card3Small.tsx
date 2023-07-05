@@ -17,11 +17,11 @@ const Card3Small: FC<Card3SmallProps> = ({ className = "h-full", post }) => {
       className={`nc-Card3Small relative flex flex-col-reverse sm:flex-row sm:justify-between sm:items-center ${className}`}
       data-nc-id="Card3Small"
     >
-      <Link to={href} className=" absolute inset-0" title={title}></Link>
+      <Link href={href} className=" absolute inset-0" title={title}></Link>
       <div className="relative space-y-2">
         <PostCardMeta meta={{ ...post }} />
         <h2 className="nc-card-title block text-base font-semibold text-neutral-900 dark:text-neutral-100">
-          <Link to={href} className=" line-clamp-2" title={title}>
+          <Link href={href} className=" line-clamp-2" title={title}>
             {title}
           </Link>
         </h2>

@@ -17,7 +17,7 @@ const Card13: FC<Card13Props> = ({ className = "", post }) => {
     <div className={`nc-Card13 relative flex ${className}`} data-nc-id="Card13">
       <div className="flex flex-col h-full py-2">
         <h2 className={`nc-card-title block font-semibold text-base`}>
-          <Link to={href} className="line-clamp-2" title={title}>
+          <Link href={href} className="line-clamp-2" title={title}>
             {title}
           </Link>
         </h2>
