@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { PostDataType } from "../../data/types";
-// import { Link } from "react-router-dom";
+// import Link from "next/link";
 import Link from "next/link";
 import Avatar from "../../shared/Avatar/Avatar";
 import { CardAuthor2Props } from "./CardAuthor2";

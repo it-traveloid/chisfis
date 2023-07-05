@@ -4,7 +4,7 @@ import twitterSvg from "images/Twitter.svg";
 import googleSvg from "images/Google.svg";
 import { Helmet } from "react-helmet";
 import Input from "shared/Input/Input";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import ButtonPrimary from "shared/Button/ButtonPrimary";
 
 export interface PageLoginProps {

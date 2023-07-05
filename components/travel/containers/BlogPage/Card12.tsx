@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import NcImage from "shared/NcImage/NcImage";
 import { PostDataType } from "data/types";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import PostCardMeta from "components/PostCardMeta/PostCardMeta";
 import PostTypeFeaturedIcon from "components/PostTypeFeaturedIcon/PostTypeFeaturedIcon";
 import SocialsShare from "shared/SocialsShare/SocialsShare";

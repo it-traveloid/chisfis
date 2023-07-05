@@ -1,7 +1,7 @@
 import { Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import { Fragment } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { PathName } from "routers/types";
 
 interface SolutionItem {

@@ -1,6 +1,6 @@
 import { CustomLink } from "data/types";
 import React, { FC } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import twFocusClass from "utils/twFocusClass";
 
 const DEMO_PAGINATION: CustomLink[] = [

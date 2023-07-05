@@ -8,7 +8,7 @@ import {
   LifebuoyIcon,
 } from "@heroicons/react/24/outline";
 import { Fragment } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import Avatar from "../../shared/Avatar/Avatar";
 
 const solutions = [

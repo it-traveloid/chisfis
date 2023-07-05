@@ -1,6 +1,6 @@
 import { TaxonomyType } from "data/types";
 import React, { FC } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 export interface TagProps {
   className?: string;

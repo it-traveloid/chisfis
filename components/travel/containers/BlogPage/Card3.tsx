@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import NcImage from "shared/NcImage/NcImage";
 import PostCardMeta from "components/PostCardMeta/PostCardMeta";
 import { PostDataType } from "data/types";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import CategoryBadgeList from "components/CategoryBadgeList/CategoryBadgeList";
 import PostTypeFeaturedIcon from "components/PostTypeFeaturedIcon/PostTypeFeaturedIcon";
 
