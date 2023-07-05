@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import NcInputNumber from "components/NcInputNumber/NcInputNumber";
+import NcInputNumber from "../../components/NcInputNumber/NcInputNumber";
 import { FC } from "react";
 import ClearDataButton from "./ClearDataButton";
 import ButtonSubmit from "./ButtonSubmit";
-import useOutsideAlerter from "hooks/useOutsideAlerter";
+import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import { PathName } from "routers/types";
-import { GuestsObject } from "components/HeroSearchForm2Mobile/GuestsInput";
+import { GuestsObject } from "../../components/HeroSearchForm2Mobile/GuestsInput";
 
 export interface GuestsInputProps {
   defaultValue: GuestsObject;

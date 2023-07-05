@@ -1,7 +1,7 @@
 import React, { FC } from "react";
-import { PostDataType } from "data/types";
+import { PostDataType } from "../../data/types";
 import { Link } from "react-router-dom";
-import Avatar from "shared/Avatar/Avatar";
+import Avatar from "../../shared/Avatar/Avatar";
 import { CardAuthor2Props } from "./CardAuthor2";
 
 export interface CardAuthor2WhiteProps extends CardAuthor2Props {}

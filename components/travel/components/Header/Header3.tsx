@@ -1,16 +1,16 @@
 import React, { FC, useEffect, useRef, useState } from "react";
 import Logo from "shared/Logo/Logo";
-import useOutsideAlerter from "hooks/useOutsideAlerter";
+import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import HeroSearchForm, {
   SearchTab,
-} from "components/HeroSearchForm2/HeroSearchForm";
+} from "../../components/HeroSearchForm2/HeroSearchForm";
 import { Link, useLocation } from "react-router-dom";
-import SwitchDarkMode from "shared/SwitchDarkMode/SwitchDarkMode";
+import SwitchDarkMode from "s../../hared/SwitchDarkMode/SwitchDarkMode";
 import NotifyDropdown from "./NotifyDropdown";
 import AvatarDropdown from "./AvatarDropdown";
-import MenuBar from "shared/MenuBar/MenuBar";
-import { StaySearchFormFields } from "components/HeroSearchForm2/StaySearchForm";
-import HeroSearchForm2MobileFactory from "components/HeroSearchForm2Mobile/HeroSearchForm2MobileFactory";
+import MenuBar from "../../shared/MenuBar/MenuBar";
+import { StaySearchFormFields } from "../../components/HeroSearchForm2/StaySearchForm";
+import HeroSearchForm2MobileFactory from "../../components/HeroSearchForm2Mobile/HeroSearchForm2MobileFactory";
 
 interface Header3Props {
   className?: string;

@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { FC } from "react";
 import Slider from "rc-slider";
-import convertNumbThousand from "utils/convertNumbThousand";
+import convertNumbThousand from "../../utils/convertNumbThousand";
 import ButtonSubmit from "./ButtonSubmit";
 
 export interface PriceRangeInputProps {

@@ -3,7 +3,7 @@ import { FC } from "react";
 import { useEffect } from "react";
 import ClearDataButton from "./ClearDataButton";
 import { useRef } from "react";
-import useOutsideAlerter from "hooks/useOutsideAlerter";
+import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 
 export interface LocationInputProps {
   defaultValue: string;

@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { PostDataType } from "data/types";
+import { PostDataType } from "../../data/types";
 import { Link } from "react-router-dom";
 import Avatar from "shared/Avatar/Avatar";
 

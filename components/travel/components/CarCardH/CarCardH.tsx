@@ -1,13 +1,13 @@
 import React, { FC } from "react";
-import { DEMO_CAR_LISTINGS } from "data/listings";
-import { CarDataType } from "data/types";
-import StartRating from "components/StartRating/StartRating";
+import { DEMO_CAR_LISTINGS } from "../../data/listings";
+import { CarDataType } from "../../data/types";
+import StartRating from "../../components/StartRating/StartRating";
 import { Link } from "react-router-dom";
-import BtnLikeIcon from "components/BtnLikeIcon/BtnLikeIcon";
-import SaleOffBadge from "components/SaleOffBadge/SaleOffBadge";
-import Badge from "shared/Badge/Badge";
-import Avatar from "shared/Avatar/Avatar";
-import NcImage from "shared/NcImage/NcImage";
+import BtnLikeIcon from "../../components/BtnLikeIcon/BtnLikeIcon";
+import SaleOffBadge from "../../components/SaleOffBadge/SaleOffBadge";
+import Badge from "../../shared/Badge/Badge";
+import Avatar from "../../shared/Avatar/Avatar";
+import NcImage from "../../shared/NcImage/NcImage";
 
 export interface CarCardHProps {
   className?: string;

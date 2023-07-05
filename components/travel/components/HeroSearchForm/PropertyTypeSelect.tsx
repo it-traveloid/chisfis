@@ -1,8 +1,8 @@
 import React, { Fragment, useEffect } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { FC } from "react";
-import Checkbox from "shared/Checkbox/Checkbox";
-import { PropertyType } from "components/HeroSearchForm2Mobile/PropertyTypeSelect";
+import Checkbox from "../../shared/Checkbox/Checkbox";
+import { PropertyType } from "../../components/HeroSearchForm2Mobile/PropertyTypeSelect";
 
 export interface PropertyTypeSelectProps {
   onChange?: (data: any) => void;

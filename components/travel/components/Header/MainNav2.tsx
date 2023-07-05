@@ -1,14 +1,14 @@
 import React, { FC } from "react";
-import Logo from "shared/Logo/Logo";
-import MenuBar from "shared/MenuBar/MenuBar";
-import SwitchDarkMode from "shared/SwitchDarkMode/SwitchDarkMode";
+import Logo from "../../shared/Logo/Logo";
+import MenuBar from "../../shared/MenuBar/MenuBar";
+import SwitchDarkMode from "../../shared/SwitchDarkMode/SwitchDarkMode";
 import LangDropdown from "./LangDropdown";
 import NotifyDropdown from "./NotifyDropdown";
 import AvatarDropdown from "./AvatarDropdown";
 import CurrencyDropdown from "./CurrencyDropdown";
 import DropdownTravelers from "./DropdownTravelers";
 import { Link } from "react-router-dom";
-import HeroSearchForm2MobileFactory from "components/HeroSearchForm2Mobile/HeroSearchForm2MobileFactory";
+import HeroSearchForm2MobileFactory from "../../components/HeroSearchForm2Mobile/HeroSearchForm2MobileFactory";
 
 export interface MainNav2Props {
   className?: string;

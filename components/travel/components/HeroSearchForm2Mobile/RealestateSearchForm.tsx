@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import convertNumbThousand from "utils/convertNumbThousand";
+import convertNumbThousand from "../../utils/convertNumbThousand";
 import LocationInput from "./LocationInput";
 import PriceRangeInput from "./PriceRangeInput";
 import PropertyTypeSelect, { PropertyType } from "./PropertyTypeSelect";

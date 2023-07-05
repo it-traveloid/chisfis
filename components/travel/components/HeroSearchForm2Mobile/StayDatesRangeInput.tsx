@@ -5,7 +5,7 @@ import {
   isInclusivelyAfterDay,
 } from "react-dates";
 import { FC } from "react";
-import { DateRage } from "components/HeroSearchForm/StaySearchForm";
+import { DateRage } from "../../components/HeroSearchForm/StaySearchForm";
 import moment from "moment";
 
 export interface StayDatesRangeInputProps {
