@@ -1,5 +1,5 @@
 import { Transition } from "@headlessui/react";
-import CarCard from "../components/CarCard/CarCard";
+import CarCard from "../components/CarCard/CarCard"; 
 import ExperiencesCard from "components/ExperiencesCard/ExperiencesCard";
 import StayCard from "../components/StayCard/StayCard";
 import { CarDataType, ExperiencesDataType, StayDataType } from "data/types";
