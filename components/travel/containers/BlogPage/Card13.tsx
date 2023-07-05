@@ -33,7 +33,7 @@ const Card13: FC<Card13Props> = ({ className = "", post }) => {
       </div>
 
       <Link
-        to={href}
+        href={href}
         className={`block relative h-full flex-shrink-0 w-2/5 sm:w-1/3 ml-3 sm:ml-5`}
       >
         <NcImage

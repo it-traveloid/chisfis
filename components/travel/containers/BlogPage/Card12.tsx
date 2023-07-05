@@ -24,7 +24,7 @@ const Card12: FC<Card12Props> = ({
       data-nc-id="Card12"
     >
       <Link
-        to={href}
+        href={href}
         className="block flex-shrink-0 flex-grow relative w-full h-0 aspect-w-4 aspect-h-3 rounded-3xl overflow-hidden"
       >
         <NcImage

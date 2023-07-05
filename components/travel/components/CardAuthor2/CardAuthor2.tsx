@@ -21,7 +21,7 @@ const CardAuthor2: FC<CardAuthor2Props> = ({
   const { displayName, href = "/", avatar } = author;
   return (
     <Link
-      to={href}
+      href={href}
       className={`nc-CardAuthor2 relative inline-flex items-center ${className}`}
       data-nc-id="CardAuthor2"
     >

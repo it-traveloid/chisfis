@@ -18,7 +18,7 @@ const CardCategory1: FC<CardCategory1Props> = ({
   const { count, name, href = "/", thumbnail } = taxonomy;
   return (
     <Link
-      to={href}
+      href={href}
       className={`nc-CardCategory1 flex items-center ${className}`}
       data-nc-id="CardCategory1"
     >

@@ -28,7 +28,7 @@ const Card3Small: FC<Card3SmallProps> = ({ className = "h-full", post }) => {
       </div>
 
       <Link
-        to={href}
+        href={href}
         title={title}
         className={`block sm:w-20 flex-shrink-0 relative rounded-lg overflow-hidden mb-5 sm:ml-4 sm:mb-0 group`}
       >

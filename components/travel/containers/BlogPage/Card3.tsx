@@ -45,7 +45,7 @@ const Card3: FC<Card3Props> = ({ className = "h-full", post }) => {
         className={`block flex-shrink-0 sm:w-56 sm:ml-6 rounded-3xl overflow-hidden mb-5 sm:mb-0`}
       >
         <Link
-          to={href}
+          href={href}
           className={`block w-full h-0 aspect-h-9 sm:aspect-h-16 aspect-w-16 `}
         >
           <NcImage

@@ -13,7 +13,7 @@ const ButtonSubmit: FC<Props> = ({
 }) => {
   return (
     <Link
-      to={href}
+      href={href}
       type="button"
       className={`h-14 w-14 rounded-full bg-primary-6000 hover:bg-primary-700 flex items-center justify-center text-neutral-50 focus:outline-none ${className}`}
       onClick={() => {
