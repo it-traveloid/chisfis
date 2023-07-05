@@ -105,7 +105,7 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
         }`}
     >
       <div className="absolute inset-0 flex">
-        <DateRangePicker
+        {/* <DateRangePicker
           startDate={stateDate.startDate}
           endDate={stateDate.endDate}
           focusedInput={focusedInput}
@@ -124,7 +124,7 @@ const StayDatesRangeInput: FC<StayDatesRangeInputProps> = ({
           anchorDirection={anchorDirection}
           customArrowIcon={<div />}
           reopenPickerOnClearDates
-        />
+        /> */}
       </div>
 
       <div className={`grid grid-cols-2 flex-1 relative  ${wrapClassName}`}>
