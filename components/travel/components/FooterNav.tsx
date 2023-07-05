@@ -91,11 +91,11 @@ const FooterNav = () => {
       <div className="w-full max-w-lg flex justify-around mx-auto text-sm text-center ">
         {/* MENU */}
         {NAV.map((item, index) => {
-          const active = location.pathname === item.link;
+          const active = location === item.link;
           return item.link ? (
             <Link
               key={index}
-              to={item.link}
+              href={item.link}
               className={`flex flex-col items-center justify-between text-neutral-500 dark:text-neutral-300/90 ${
                 active ? "text-neutral-900 dark:text-neutral-100" : ""
               }`}
