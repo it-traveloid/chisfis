@@ -7,7 +7,7 @@ import Link from "next/link";
 import BtnLikeIcon from "../../components/BtnLikeIcon/BtnLikeIcon";
 import SaleOffBadge from "../../components/SaleOffBadge/SaleOffBadge";
 import Badge from "../../shared/Badge/Badge";
-import Avatar from "../../../../shared/Avatar/Avatar";
+import Avatar from "../../shared/Avatar/Avatar";
 import NcImage from "../../shared/NcImage/NcImage";
 
 export interface CarCardHProps {
