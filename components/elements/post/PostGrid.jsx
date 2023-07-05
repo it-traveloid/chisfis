@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { basePostUrl } from '~/repositories/Repository';
+import { basePostUrl } from '@/repositories/Repository';
 import LazyLoad from 'react-lazyload';
 import moment from 'moment';
 

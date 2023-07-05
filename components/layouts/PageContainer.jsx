@@ -1,8 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
-import HeaderDefault from '~/components/shared/headers/HeaderDefault';
-import HeaderMobile from '~/components/shared/headers/HeaderMobile';
-import FooterFullwidth from '~/components/shared/footers/FooterFullwidth';
+import HeaderDefault from '../../components/shared/headers/HeaderDefault';
+import HeaderMobile from '../../components/shared/headers/HeaderMobile';
+import FooterFullwidth from '../../components/shared/footers/FooterFullwidth';
 
 const initHeaders = (
     <>

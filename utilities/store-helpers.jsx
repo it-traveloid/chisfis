@@ -5,7 +5,7 @@
  * */
 
 import React from 'react';
-import StoreRepository from '~/repositories/StoreRepository';
+import StoreRepository from '@../../../repositories/StoreRepository';
 
 export async function getStoresHelper(pageSize = 12) {
     let stores;

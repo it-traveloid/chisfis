@@ -1,5 +1,5 @@
 import React from 'react';
-import { carouselSingle } from '~/utilities/carousel-helpers';
+import { carouselSingle } from '@/utilities/carousel-helpers';
 import Link from 'next/link';
 import Slider from 'react-slick';
 

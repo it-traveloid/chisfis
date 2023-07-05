@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { getStoresHelper } from '~/utilities/store-helpers';
-import StoreDefault from '~/components/elements/stores/StoreDefault';
+import { getStoresHelper } from '@/utilities/store-helpers';
+import StoreDefault from '@/components/elements/stores/StoreDefault';
 
 const StoreItems = () => {
     const [loading, setLoading] = useState(false);

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import PostRepository from '~/repositories/PostRepository';
+import PostRepository from '@../../../repositories/PostRepository';
 
 export default function useGetPosts() {
     const [loading, setLoading] = useState(false);

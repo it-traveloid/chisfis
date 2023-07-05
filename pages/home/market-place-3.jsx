@@ -1,14 +1,14 @@
 import React from 'react';
-import MartketPlace3Banner from '~/components/partials/homepage/marketplace3/MartketPlace3Banner';
-import MarketPlace3SearchTrending from '~/components/partials/homepage/marketplace3/MarketPlace3SearchTrending';
-import MarketPlaceDealOfDay from '~/components/partials/homepage/marketplace/MarketPlaceDealOfDay';
-import MarketPlace3Promotions from '~/components/partials/homepage/marketplace3/MarketPlace3Promotions';
-import Market3ProductGroup from '~/components/partials/homepage/marketplace3/Market3ProductGroup';
-import ModuleMarket3ProductGroupBanners from '~/components/partials/homepage/marketplace3/modules/ModuleMarket3ProductGroupBanners';
-import HeaderMobile from '~/components/shared/headers/HeaderMobile';
-import FooterMarketPlace2 from '~/components/shared/footers/FooterMarketPlace2';
-import HeaderMarketPlace3 from '~/components/shared/headers/HeaderMarketPlace3';
-import PageContainer from '~/components/layouts/PageContainer';
+import MartketPlace3Banner from '@/../../components/partials/homepage/marketplace3/MartketPlace3Banner';
+import MarketPlace3SearchTrending from '@/../../components/partials/homepage/marketplace3/MarketPlace3SearchTrending';
+import MarketPlaceDealOfDay from '@/../../components/partials/homepage/marketplace/MarketPlaceDealOfDay';
+import MarketPlace3Promotions from '@/../../components/partials/homepage/marketplace3/MarketPlace3Promotions';
+import Market3ProductGroup from '@/../../components/partials/homepage/marketplace3/Market3ProductGroup';
+import ModuleMarket3ProductGroupBanners from '@/../../components/partials/homepage/marketplace3/modules/ModuleMarket3ProductGroupBanners';
+import HeaderMobile from '@/../../components/shared/headers/HeaderMobile';
+import FooterMarketPlace2 from '@/../../components/shared/footers/FooterMarketPlace2';
+import HeaderMarketPlace3 from '@/../../components/shared/headers/HeaderMarketPlace3';
+import PageContainer from '@/../../components/layouts/PageContainer';
 
 const HomeMarketPlace3Page = () => {
     const electricsLinks = [

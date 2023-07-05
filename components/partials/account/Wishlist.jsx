@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import useEcomerce from '~/hooks/useEcomerce';
+import useEcomerce from '@/hooks/useEcomerce';
 import AccountMenuSidebar from './modules/AccountMenuSidebar';
-import { getWithActive } from '~/components/utils/account/AccountLinks.js';
+import { getWithActive } from '@/components/utils/account/AccountLinks.js';
 import AccountProductList from './modules/AccountProductList';
 
 const Wishlist = ({ ecomerce }) => {

@@ -6,7 +6,7 @@ import zxcvbn from 'zxcvbn';
 
 import { Form } from 'antd';
 import { connect } from 'react-redux';
-import FormRegister from '~/components/partials/seller/FormRegister';
+import FormRegister from '@/components/partials/seller/FormRegister';
 
 class Register extends Component {
 	constructor(props) {

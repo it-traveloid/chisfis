@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import ProductWide from '~/components/elements/products/ProductWide';
-import Product from '~/components/elements/products/Product';
-import product_data from '~/public/static/data/product';
+import ProductWide from '@/components/elements/products/ProductWide';
+import Product from '@/components/elements/products/Product';
+import product_data from '@/public/static/data/product';
 
 class VendorProducts extends Component {
     state = {

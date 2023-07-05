@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
-import NextArrow from '~/components/elements/carousel/NextArrow';
-import PrevArrow from '~/components/elements/carousel/PrevArrow';
+import NextArrow from '@/components/elements/carousel/NextArrow';
+import PrevArrow from '@/components/elements/carousel/PrevArrow';
 
 const MarketPlaceHomeBanner = () => {
     const carouselSettings = {

@@ -1,11 +1,11 @@
 import React, { Component, useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import { connect } from 'react-redux';
-import { getProductsByCollectionHelper } from '~/utilities/strapi-fetch-data-helpers';
-import Product from '~/components/elements/products/Product';
-import { carouselStandard } from '~/utilities/carousel-helpers';
-import NextArrow from '~/components/elements/carousel/NextArrow';
-import PrevArrow from '~/components/elements/carousel/PrevArrow';
+import { getProductsByCollectionHelper } from '@/../../utilities/strapi-fetch-data-helpers';
+import Product from '@/../../components/elements/products/Product';
+import { carouselStandard } from '@/../../utilities/carousel-helpers';
+import NextArrow from '@/../../components/elements/carousel/NextArrow';
+import PrevArrow from '@/../../components/elements/carousel/PrevArrow';
 import axios from 'axios';
 
 const RelatedProduct = ({ collectionSlug, boxed, layout }) => {

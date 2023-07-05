@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { baseUrl } from '~/repositories/Repository';
+import { baseUrl } from '@/repositories/Repository';
 
 const BannerItem = ({ source }) => {
     if (source) {

@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import { connect } from 'react-redux';
-import useProduct from '~/hooks/useProduct';
-import useEcomerce from '~/hooks/useEcomerce';
+import useProduct from '@/../../hooks/useProduct';
+import useEcomerce from '@/../../hooks/useEcomerce';
 
 const ProductOnHeader = ({ ecomerce, product }) => {
     const { thumbnailImage, price, title } = useProduct();

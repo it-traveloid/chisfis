@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
-import product_data from '~/public/static/data/product';
-import NextArrow from '~/components/elements/carousel/NextArrow';
-import PrevArrow from '~/components/elements/carousel/PrevArrow';
-import Product from '~/components/elements/products/Product';
+import product_data from '@/public/static/data/product';
+import NextArrow from '@/components/elements/carousel/NextArrow';
+import PrevArrow from '@/components/elements/carousel/PrevArrow';
+import Product from '@/components/elements/products/Product';
 
 class RecommentProducts extends Component {
     render() {

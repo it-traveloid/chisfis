@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AccountMenuSidebar from './modules/AccountMenuSidebar';
 import Link from 'next/link';
-import { getWithActive } from '~/components/utils/account/AccountLinks.js';
+import { getWithActive } from '@/components/utils/account/AccountLinks.js';
 
 class Addresses extends Component {
     constructor(props) {

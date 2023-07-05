@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import Product from '~/components/elements/products/Product';
-import ProductWide from '~/components/elements/products/ProductWide';
-import ProductRepository from '~/repositories/ProductRepository';
-import ModuleShopSortBy from '~/components/partials/shop/modules/ModuleShopSortBy';
+import Product from '@/components/elements/products/Product';
+import ProductWide from '@/components/elements/products/ProductWide';
+import ProductRepository from '@/repositories/ProductRepository';
+import ModuleShopSortBy from '@/components/partials/shop/modules/ModuleShopSortBy';
 import { useRouter } from 'next/router';
-import { generateTempArray } from '~/utilities/common-helpers';
-import SkeletonProduct from '~/components/elements/skeletons/SkeletonProduct';
-import StoreRepository from '~/repositories/StoreRepository';
+import { generateTempArray } from '@/utilities/common-helpers';
+import SkeletonProduct from '@/components/elements/skeletons/SkeletonProduct';
+import StoreRepository from '@/repositories/StoreRepository';
 
 const ModuleStoreItems = ({ products, columns = 4, pageSize = 12 }) => {
     const Router = useRouter();

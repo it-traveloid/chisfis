@@ -1,6 +1,6 @@
 import React from 'react';
 import { Rate } from 'antd';
-import Rating from '~/components/elements/Rating';
+import Rating from '@/components/elements/Rating';
 import { useForm, useFieldArray, Controller, useWatch } from "react-hook-form";
 import { useSession, signIn, signOut } from "next-auth/react"
 

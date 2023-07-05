@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Tabs } from 'antd';
-import { getProductsByCategoriesHelper } from '~/utilities/strapi-fetch-data-helpers';
-import Product from '~/components/elements/products/Product';
-import ProductHorizontal from '~/components/elements/products/ProductHorizontal';
-import useGetProducts from '~/hooks/useGetProducts';
+import { getProductsByCategoriesHelper } from '@/utilities/strapi-fetch-data-helpers';
+import Product from '@/components/elements/products/Product';
+import ProductHorizontal from '@/components/elements/products/ProductHorizontal';
+import useGetProducts from '@/hooks/useGetProducts';
 
 const { TabPane } = Tabs;
 

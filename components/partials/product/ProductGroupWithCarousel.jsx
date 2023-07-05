@@ -1,6 +1,6 @@
 import Slider from 'react-slick';
-import {carouselFullwidth, carouselStandard} from '~/utilities/carousel-helpers';
-import Product from '~/components/elements/products/Product';
+import {carouselFullwidth, carouselStandard} from '@/../../utilities/carousel-helpers';
+import Product from '@/../../components/elements/products/Product';
 
 export const ProductGroupWithCarousel = ({products, type = 'normal'}) => {
 

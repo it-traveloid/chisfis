@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import PageContainer from '~/components/layouts/PageContainer';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import Newletters from '@/../../components/partials/commons/Newletters';
 import { connect } from 'react-redux';
-import useEcomerce from '~/hooks/useEcomerce';
-import ModuleEcomerceCartItems from '~/components/ecomerce/modules/ModuleEcomerceCartItems';
+import useEcomerce from '@/../../hooks/useEcomerce';
+import ModuleEcomerceCartItems from '@/../../components/ecomerce/modules/ModuleEcomerceCartItems';
 import Link from 'next/link';
-import ModuleCartSummary from '~/components/ecomerce/modules/ModuleCartSummary';
+import ModuleCartSummary from '@/../../components/ecomerce/modules/ModuleCartSummary';
 
 const ShoppingCartScreen = ({ ecomerce }) => {
     const { products, getProducts } = useEcomerce();

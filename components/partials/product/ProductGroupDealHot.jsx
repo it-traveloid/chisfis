@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import Slider from 'react-slick';
-import { carouselSingle } from '~/utilities/carousel-helpers';
-import ProductDealHot from '~/components/elements/products/ProductDealHot';
-import ProductHorizontal from '~/components/elements/products/ProductHorizontal';
-import useGetProducts from '~/hooks/useGetProducts';
+import { carouselSingle } from '@/../../utilities/carousel-helpers';
+import ProductDealHot from '@/../../components/elements/products/ProductDealHot';
+import ProductHorizontal from '@/../../components/elements/products/ProductHorizontal';
+import useGetProducts from '@/../../hooks/useGetProducts';
 
 const ProductGroupDealHot = ({ collectionSlug }) => {
     const sliderRef = useRef(null);

@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import { StrapiProductThumbnail } from '~/utilities/product-helper';
-import ModuleProductWideActions from '~/components/elements/products/modules/ModuleProductWideActions';
-import useProduct from '~/hooks/useProduct';
+import { StrapiProductThumbnail } from '@/../../utilities/product-helper';
+import ModuleProductWideActions from '@/../../components/elements/products/modules/ModuleProductWideActions';
+import useProduct from '@/../../hooks/useProduct';
 
 const ProductWide = ({ product }) => {
     const { thumbnailImage, price, title, badge } = useProduct();

@@ -1,12 +1,12 @@
 import React from 'react';
 import { useRouter } from "next/router";
 
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import Login from '~/components/partials/account/Login';
-import Logged from '~/components/partials/account/Logged';
-import PageContainer from '~/components/layouts/PageContainer';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import Login from '@/../../components/partials/account/Login';
+import Logged from '@/../../components/partials/account/Logged';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import Newletters from '@/../../components/partials/commons/Newletters';
 
 const LoginPage = () => {
     const breadCrumb = [

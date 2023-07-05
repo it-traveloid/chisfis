@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { calculateAmount } from '~/utilities/ecomerce-helpers';
+import { calculateAmount } from '../../..//utilities/ecomerce-helpers';
 
 const ModuleCartSummary = ({ source }) => {
     // View

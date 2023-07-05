@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
-import useEcomerce from '~/hooks/useEcomerce';
+import useEcomerce from '@/../../hooks/useEcomerce';
 import { Modal } from 'antd';
 
 const ModuleDetailShoppingActionsSidebar = ({ ecomerce, product }) => {

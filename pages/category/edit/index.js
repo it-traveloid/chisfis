@@ -2,9 +2,9 @@ import { PrismaClient } from '@prisma/client'
 import Link from 'next/link';
 import { useSession, signIn, signOut } from "next-auth/react"
 import { useRouter } from 'next/router'
-import PageContainer from '~/components/layouts/PageContainer';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import BreadCrumb from '~/components/elements/BreadCrumb';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
 
 
 export default function ({json}) {

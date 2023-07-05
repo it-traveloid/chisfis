@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Slider from 'react-slick';
-import { getProductsByCollectionHelper } from '~/utilities/strapi-fetch-data-helpers';
-import ProductSimple from '~/components/elements/products/ProductSimple';
-import { carouselSingle } from '~/utilities/carousel-helpers';
-import useGetProducts from '~/hooks/useGetProducts';
+import { getProductsByCollectionHelper } from '@/utilities/strapi-fetch-data-helpers';
+import ProductSimple from '@/components/elements/products/ProductSimple';
+import { carouselSingle } from '@/utilities/carousel-helpers';
+import useGetProducts from '@/hooks/useGetProducts';
 
 const MarketComputerAndTechnology = ({ collectionSlug }) => {
     const { productItems, loading, getProductsByCollection } = useGetProducts();

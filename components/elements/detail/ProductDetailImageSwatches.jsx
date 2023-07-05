@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import Slider from 'react-slick';
-import Rating from '~/components/elements/Rating';
-import DefaultDescription from '~/components/elements/detail/description/DefaultDescription';
+import Rating from '@/components/elements/Rating';
+import DefaultDescription from '@/components/elements/detail/description/DefaultDescription';
 
 class ProductDetailImageSwatches extends Component {
     constructor(props) {

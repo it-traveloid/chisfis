@@ -1,11 +1,11 @@
 import React from 'react';
 
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import OurTeam from '~/components/partials/page/about-us/OurTeam';
-import AboutAwards from '~/components/partials/page/about-us/AboutAwards';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
-import PageContainer from '~/components/layouts/PageContainer';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import OurTeam from '@/../../components/partials/page/about-us/OurTeam';
+import AboutAwards from '@/../../components/partials/page/about-us/AboutAwards';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import Newletters from '@/../../components/partials/commons/Newletters';
+import PageContainer from '@/../../components/layouts/PageContainer';
 
 const AboutUsPage = () => {
     const breadCrumb = [

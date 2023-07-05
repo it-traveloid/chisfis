@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
-import MediaRepository from '~/repositories/MediaRepository';
-import { getItemBySlug } from '~/utilities/product-helper';
-import Promotion from '~/components/elements/media/Promotion';
+import MediaRepository from '@/../../repositories/MediaRepository';
+import { getItemBySlug } from '@/../../utilities/product-helper';
+import Promotion from '@/../../components/elements/media/Promotion';
 
 const HomeAdsColumns = () => {
     const [promotion1, setPromotion1] = useState(null);

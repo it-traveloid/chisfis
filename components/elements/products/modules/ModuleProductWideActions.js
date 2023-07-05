@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Modal } from 'antd';
-import useProduct from '~/hooks/useProduct';
-import useEcomerce from '~/hooks/useEcomerce';
+import useProduct from '@/../../hooks/useProduct';
+import useEcomerce from '@/../../hooks/useEcomerce';
 
 const ModuleProductWideActions = ({ ecomerce, product }) => {
     const { price } = useProduct();

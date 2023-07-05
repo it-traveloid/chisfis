@@ -13,10 +13,10 @@ import { PrismaClient } from '@prisma/client';
 import 'react-quill/dist/quill.snow.css';
 // import axios from 'axios'
 import debounce from 'lodash.debounce';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import PageContainer from '~/components/layouts/PageContainer';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import PageContainer from '@/../../components/layouts/PageContainer';
 
-import FooterDefault from '~/components/shared/footers/FooterDefault';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
 
 export default function ({ data }) {
 	let good = JSON.parse(data.goods)

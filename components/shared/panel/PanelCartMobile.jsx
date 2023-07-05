@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import Link from 'next/link';
-import useEcomerce from '~/hooks/useEcomerce';
-import useProduct from '~/hooks/useProduct';
-import { calculateAmount } from '~/utilities/ecomerce-helpers';
+import useEcomerce from '../../../hooks/useEcomerce';
+import useProduct from '../../../hooks/useProduct';
+import { calculateAmount } from '../../../utilities/ecomerce-helpers';
 
 const PanelCartMobile = ({ ecomerce }) => {
     const { products, getProducts, removeItem } = useEcomerce();

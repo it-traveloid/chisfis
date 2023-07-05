@@ -1,5 +1,5 @@
 import React from 'react';
-import PartialReview from '~/components/elements/detail/description/PartialReview';
+import PartialReview from '@/components/elements/detail/description/PartialReview';
 import { Button, Checkbox, Form, Input } from 'antd';
 import axios from 'axios';
 

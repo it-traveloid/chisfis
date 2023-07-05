@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 
 import Link from 'next/link';
-import menuData from '~/public/static/data/menu';
-import CurrencyDropdown from '~/components/shared/headers/modules/CurrencyDropdown';
-import LanguageSwicher from '~/components/shared/headers/modules/LanguageSwicher';
-import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
-import ElectronicHeaderActions from '~/components/shared/headers/modules/ElectronicHeaderActions';
-import Menu from '~/components/elements/menu/Menu';
-import { stickyHeader } from '~/utilities/common-helpers';
+import menuData from '@/public/static/data/menu';
+import CurrencyDropdown from '@/components/shared/headers/modules/CurrencyDropdown';
+import LanguageSwicher from '@/components/shared/headers/modules/LanguageSwicher';
+import SearchHeader from '@/components/shared/headers/modules/SearchHeader';
+import ElectronicHeaderActions from '@/components/shared/headers/modules/ElectronicHeaderActions';
+import Menu from '@/components/elements/menu/Menu';
+import { stickyHeader } from '@/utilities/common-helpers';
 
 const HeaderTechnology = () => {
     useEffect(() => {

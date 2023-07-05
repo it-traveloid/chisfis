@@ -1,12 +1,12 @@
 import {useEffect, useState} from 'react';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import PageContainer from '~/components/layouts/PageContainer';
-import Newsletters from '~/components/partials/commons/Newletters';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import Newsletters from '@/../../components/partials/commons/Newletters';
 import {useRouter} from 'next/router';
-import useProductsAPI from "~/hooks/useProductsAPI";
-import Product from "~/components/elements/products/Product";
-import {generateTempArray} from "~/utilities/common-helpers";
-import SkeletonProduct from "~/components/elements/skeletons/SkeletonProduct";
+import useProductsAPI from "@/../../hooks/useProductsAPI";
+import Product from "@/../../components/elements/products/Product";
+import {generateTempArray} from "@/../../utilities/common-helpers";
+import SkeletonProduct from "@/../../components/elements/skeletons/SkeletonProduct";
 import {Pagination} from "antd";
 
 const breadcrumb = [{text: 'Домой', url: '/'}, {text: 'Результаты поиска'}];

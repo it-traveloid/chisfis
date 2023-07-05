@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Slider from 'react-slick';
-import { carouselSingle } from '~/utilities/carousel-helpers';
+import { carouselSingle } from '@/utilities/carousel-helpers';
 
 const ShopCarouselBanner = () => {
 

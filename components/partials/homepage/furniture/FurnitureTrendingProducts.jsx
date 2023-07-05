@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import Slider from 'react-slick';
-import { generateTempArray } from '~/utilities/common-helpers';
-import SkeletonProduct from '~/components/elements/skeletons/SkeletonProduct';
-import Product from '~/components/elements/products/Product';
-import { carouselStandard } from '~/utilities/carousel-helpers';
-import useGetProducts from '~/hooks/useGetProducts';
+import { generateTempArray } from '@/utilities/common-helpers';
+import SkeletonProduct from '@/components/elements/skeletons/SkeletonProduct';
+import Product from '@/components/elements/products/Product';
+import { carouselStandard } from '@/utilities/carousel-helpers';
+import useGetProducts from '@/hooks/useGetProducts';
 
 const FurnitureTrendingProducts = ({ collectionSlug }) => {
     const { productItems, loading, getProductsByCollection } = useGetProducts();

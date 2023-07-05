@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import Link from 'next/link';
 
 import Slider from 'react-slick';
-import { carouselSingle } from '~/utilities/carousel-helpers';
-import ProductSimple from '~/components/elements/products/ProductSimple';
-import useGetProducts from '~/hooks/useGetProducts';
+import { carouselSingle } from '@/utilities/carousel-helpers';
+import ProductSimple from '@/components/elements/products/ProductSimple';
+import useGetProducts from '@/hooks/useGetProducts';
 
 const MarketHeathyAndBeauty = ({ categorySlug }) => {
     const { productItems, loading, getProductsByCategory } = useGetProducts();

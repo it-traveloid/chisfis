@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import ProductRepository from '~/repositories/ProductRepository';
-import SkeletonProductDetail from '~/components/elements/skeletons/SkeletonProductDetail';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import ProductWidgets from '~/components/partials/product/ProductWidgets';
-import CustomerBought from '~/components/partials/product/CustomerBought';
-import RelatedProduct from '~/components/partials/product/RelatedProduct';
-import ProductDetailOutOfStock from '~/components/elements/detail/ProductDetailOutOfStock';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
-import PageContainer from '~/components/layouts/PageContainer';
+import ProductRepository from '@/../../repositories/ProductRepository';
+import SkeletonProductDetail from '@/../../components/elements/skeletons/SkeletonProductDetail';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import ProductWidgets from '@/../../components/partials/product/ProductWidgets';
+import CustomerBought from '@/../../components/partials/product/CustomerBought';
+import RelatedProduct from '@/../../components/partials/product/RelatedProduct';
+import ProductDetailOutOfStock from '@/../../components/elements/detail/ProductDetailOutOfStock';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import Newletters from '@/../../components/partials/commons/Newletters';
+import PageContainer from '@/../../components/layouts/PageContainer';
 
 const ProductOutOfStockPage = () => {
     const router = useRouter();

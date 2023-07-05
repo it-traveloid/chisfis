@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
-import WidgetShopBrands from '~/components/shared/widgets/WidgetShopBrands';
-import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
-import ProductRepository from '~/repositories/ProductRepository';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import WidgetShopCategories from '@/../../components/shared/widgets/WidgetShopCategories';
+import WidgetShopBrands from '@/../../components/shared/widgets/WidgetShopBrands';
+import WidgetShopFilterByPriceRange from '@/../../components/shared/widgets/WidgetShopFilterByPriceRange';
+import ProductRepository from '@/../../repositories/ProductRepository';
 import { useRouter } from 'next/router';
-import ProductItems from '~/components/partials/product/ProductItems';
-import PageContainer from '~/components/layouts/PageContainer';
-import Newletters from '~/components/partials/commons/Newletters';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
+import ProductItems from '@/../../components/partials/product/ProductItems';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import Newletters from '@/../../components/partials/commons/Newletters';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
 
 const ProductByBrandScreen = () => {
     const Router = useRouter();

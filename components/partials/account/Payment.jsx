@@ -2,9 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Link from 'next/link';
 
-import ModulePaymentOrderSummary from '~/components/partials/account/modules/ModulePaymentOrderSummary';
-import ModulePaymentShipping from '~/components/ecomerce/modules/ModulePaymentShipping';
-import ModulePaymentMethods from '~/components/ecomerce/modules/ModulePaymentMethods';
+import ModulePaymentOrderSummary from '@/components/partials/account/modules/ModulePaymentOrderSummary';
+import ModulePaymentShipping from '@/components/ecomerce/modules/ModulePaymentShipping';
+import ModulePaymentMethods from '@/components/ecomerce/modules/ModulePaymentMethods';
 
 const Payment = () => {
     return (

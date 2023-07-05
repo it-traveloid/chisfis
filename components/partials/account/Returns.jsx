@@ -1,7 +1,7 @@
 import React from 'react';
 import AccountMenuSidebar from './modules/AccountMenuSidebar';
-import { getWithActive } from '~/components/utils/account/AccountLinks.js';
-import AccountProductListReturns from '~/components/partials/account/modules/AccountProductListReturns';
+import { getWithActive } from '@/components/utils/account/AccountLinks.js';
+import AccountProductListReturns from '@/components/partials/account/modules/AccountProductListReturns';
 
 const Returns = () => {
     const accountLinks = getWithActive('Возвраты');

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
-import Product from '~/components/elements/products/Product';
-import ProductHorizontal from '~/components/elements/products/ProductHorizontal';
-import useGetProducts from '~/hooks/useGetProducts';
+import Product from '@/components/elements/products/Product';
+import ProductHorizontal from '@/components/elements/products/ProductHorizontal';
+import useGetProducts from '@/hooks/useGetProducts';
 
 const ShopCarouselTopDeal = ({ collectionSlug }) => {
     const { productItems, loading, getProductsByCollection } = useGetProducts();

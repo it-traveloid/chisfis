@@ -1,8 +1,8 @@
 import React from 'react';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import StoreDetail from '~/components/partials/stores/StoreDetail';
-import PageContainer from '~/components/layouts/PageContainer';
-import Newsletters from '~/components/partials/commons/Newletters';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import StoreDetail from '@/../../components/partials/stores/StoreDetail';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import Newsletters from '@/../../components/partials/commons/Newletters';
 
 const StoreDetailPage = () => {
     const breadCrumb = [

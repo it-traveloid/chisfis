@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Link from 'next/link';
-import ProductHorizontal from '~/components/elements/products/ProductHorizontal';
-import useGetProducts from '~/hooks/useGetProducts';
+import ProductHorizontal from '@/../../components/elements/products/ProductHorizontal';
+import useGetProducts from '@/../../hooks/useGetProducts';
 
 const NewArrivals = ({ collectionSlug }) => {
     const { productItems, loading, getProductsByCollection } = useGetProducts();

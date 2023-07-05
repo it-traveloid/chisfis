@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import ProductRepository from '~/repositories/ProductRepository';
-import SkeletonProductDetail from '~/components/elements/skeletons/SkeletonProductDetail';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import ProductWidgets from '~/components/partials/product/ProductWidgets';
-import ProductDetailFullwidth from '~/components/elements/detail/ProductDetailFullwidth';
-import CustomerBought from '~/components/partials/product/CustomerBought';
-import RelatedProduct from '~/components/partials/product/RelatedProduct';
-import Newletters from '~/components/partials/commons/Newletters';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import PageContainer from '~/components/layouts/PageContainer';
+import ProductRepository from '@/../../repositories/ProductRepository';
+import SkeletonProductDetail from '@/../../components/elements/skeletons/SkeletonProductDetail';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import ProductWidgets from '@/../../components/partials/product/ProductWidgets';
+import ProductDetailFullwidth from '@/../../components/elements/detail/ProductDetailFullwidth';
+import CustomerBought from '@/../../components/partials/product/CustomerBought';
+import RelatedProduct from '@/../../components/partials/product/RelatedProduct';
+import Newletters from '@/../../components/partials/commons/Newletters';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import PageContainer from '@/../../components/layouts/PageContainer';
 
 const ProductDefaultPage = () => {
     const router = useRouter();

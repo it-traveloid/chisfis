@@ -1,9 +1,9 @@
 import React from 'react';
-import StoreItems from '~/components/partials/stores/StoreItems';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import PageContainer from '~/components/layouts/PageContainer';
-import Newsletters from '~/components/partials/commons/Newletters';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
+import StoreItems from '@/../../components/partials/stores/StoreItems';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import Newsletters from '@/../../components/partials/commons/Newletters';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
 
 const StoreListPage = () => {
     const breadCrumb = [

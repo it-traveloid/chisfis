@@ -1,5 +1,5 @@
 import React from "react";
-import FormList from '~/components/elements/FormList';
+import FormList from '@/components/elements/FormList';
 import { Form, Input, Select, Radio } from 'antd';
 
 const FormRegister = ({ numberForm = 0 }) => {

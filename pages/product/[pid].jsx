@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import ProductRepository from '~/repositories/ProductRepository';
-import SkeletonProductDetail from '~/components/elements/skeletons/SkeletonProductDetail';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import ProductDetailFullContent from '~/components/elements/detail/ProductDetailFullContent';
-import CustomerBought from '~/components/partials/product/CustomerBought';
-import RelatedProduct from '~/components/partials/product/RelatedProduct';
-import PageContainer from '~/components/layouts/PageContainer';
+import ProductRepository from '@/../../repositories/ProductRepository';
+import SkeletonProductDetail from '@/../../components/elements/skeletons/SkeletonProductDetail';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import ProductDetailFullContent from '@/../../components/elements/detail/ProductDetailFullContent';
+import CustomerBought from '@/../../components/partials/product/CustomerBought';
+import RelatedProduct from '@/../../components/partials/product/RelatedProduct';
+import PageContainer from '@/../../components/layouts/PageContainer';
 import axios from 'axios';
 
 const ProductDefaultPage = () => {

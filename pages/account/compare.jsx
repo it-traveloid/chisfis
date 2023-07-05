@@ -1,9 +1,9 @@
 import React from 'react';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import Compare from '~/components/partials/account/Compare';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
-import PageContainer from '~/components/layouts/PageContainer';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import Compare from '@/../../components/partials/account/Compare';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import Newletters from '@/../../components/partials/commons/Newletters';
+import PageContainer from '@/../../components/layouts/PageContainer';
 
 const ComparePage = () => {
     const breadCrumb = [

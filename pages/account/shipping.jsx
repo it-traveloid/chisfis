@@ -1,11 +1,11 @@
 import React from 'react';
 
 import { connect } from 'react-redux';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import Shipping from '~/components/partials/account/Shipping';
-import PageContainer from '~/components/layouts/PageContainer';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import Shipping from '@/../../components/partials/account/Shipping';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import Newletters from '@/../../components/partials/commons/Newletters';
 
 const ShippingPage = () => {
     const breadCrumb = [

@@ -2,8 +2,8 @@ import React, { Component, useEffect } from 'react';
 import { connect } from 'react-redux';
 import Link from 'next/link';
 import { Rate } from 'antd';
-import useEcomerce from '~/hooks/useEcomerce';
-import useProduct from '~/hooks/useProduct';
+import useEcomerce from '@/hooks/useEcomerce';
+import useProduct from '@/hooks/useProduct';
 
 const Compare = ({ ecomerce }) => {
     const { products, getProducts } = useEcomerce();

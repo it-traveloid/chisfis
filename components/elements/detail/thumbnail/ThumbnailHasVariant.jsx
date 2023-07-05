@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import Lightbox from 'react-image-lightbox';
-import NextArrow from '~/components/elements/carousel/NextArrow';
-import PrevArrow from '~/components/elements/carousel/PrevArrow';
-import { baseUrl } from '~/repositories/Repository';
+import NextArrow from '@/../../components/elements/carousel/NextArrow';
+import PrevArrow from '@/../../components/elements/carousel/PrevArrow';
+import { baseUrl } from '@/../../repositories/Repository';
 class ThumbnailHasVariant extends Component {
     constructor(props) {
         super(props);

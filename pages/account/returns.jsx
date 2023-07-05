@@ -1,10 +1,10 @@
 import React from 'react';
 
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import Returns from '~/components/partials/account/Returns';
-import PageContainer from '~/components/layouts/PageContainer';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import Returns from '@/../../components/partials/account/Returns';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import Newletters from '@/../../components/partials/commons/Newletters';
 
 const ReturnsPage = () => {
     const breadCrumb = [

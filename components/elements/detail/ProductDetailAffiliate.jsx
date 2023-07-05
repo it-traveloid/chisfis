@@ -1,11 +1,11 @@
 import React from 'react';
-import ThumbnailDefault from '~/components/elements/detail/thumbnail/ThumbnailDefault';
-import ModuleDetailTopInformation from '~/components/elements/detail/modules/ModuleDetailTopInformation';
-import ModuleProductDetailDescription from '~/components/elements/detail/modules/ModuleProductDetailDescription';
-import ModuleProductDetailSpecification from '~/components/elements/detail/modules/ModuleProductDetailSpecification';
-import ModuleProductDetailSharing from '~/components/elements/detail/modules/ModuleProductDetailSharing';
-import ModuleDetailActionsMobile from '~/components/elements/detail/modules/ModuleDetailActionsMobile';
-import DefaultDescription from '~/components/elements/detail/description/DefaultDescription';
+import ThumbnailDefault from '@/components/elements/detail/thumbnail/ThumbnailDefault';
+import ModuleDetailTopInformation from '@/components/elements/detail/modules/ModuleDetailTopInformation';
+import ModuleProductDetailDescription from '@/components/elements/detail/modules/ModuleProductDetailDescription';
+import ModuleProductDetailSpecification from '@/components/elements/detail/modules/ModuleProductDetailSpecification';
+import ModuleProductDetailSharing from '@/components/elements/detail/modules/ModuleProductDetailSharing';
+import ModuleDetailActionsMobile from '@/components/elements/detail/modules/ModuleDetailActionsMobile';
+import DefaultDescription from '@/components/elements/detail/description/DefaultDescription';
 
 const ProductDetailAffiliate = ({ product }) => {
     return (

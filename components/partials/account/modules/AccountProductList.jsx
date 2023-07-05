@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCart from '~/components/elements/products/ProductCart';
+import ProductCart from '@/components/elements/products/ProductCart';
 
 const AccountProductList = ({ products, handleRemoveWishlistItem, handleAddItemToCart, loading }) => {
     if (products && products.length > 0) {

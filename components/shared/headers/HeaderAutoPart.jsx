@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import Link from 'next/link';
-import Menu from '~/components/elements/menu/Menu';
-import CurrencyDropdown from '~/components/shared/headers/modules/CurrencyDropdown';
-import AccountQuickLinks from '~/components/shared/headers/modules/AccountQuickLinks';
-import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
-import MiniCart from '~/components/shared/headers/modules/MiniCart';
-import { stickyHeader } from '~/utilities/common-helpers';
+import Menu from '@/components/elements/menu/Menu';
+import CurrencyDropdown from '@/components/shared/headers/modules/CurrencyDropdown';
+import AccountQuickLinks from '@/components/shared/headers/modules/AccountQuickLinks';
+import SearchHeader from '@/components/shared/headers/modules/SearchHeader';
+import MiniCart from '@/components/shared/headers/modules/MiniCart';
+import { stickyHeader } from '@/utilities/common-helpers';
 
 const HeaderAutoPart = () => {
     useEffect(() => {

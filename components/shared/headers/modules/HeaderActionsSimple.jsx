@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Link from 'next/link';
-import MiniCart from '~/components/shared/headers/modules/MiniCart';
-import AccountQuickLinks from '~/components/shared/headers/modules/AccountQuickLinks';
+import MiniCart from '@/components/shared/headers/modules/MiniCart';
+import AccountQuickLinks from '@/components/shared/headers/modules/AccountQuickLinks';
 
 const HeaderActionsSimple = (props) => {
     const { compare, wishlist, auth } = props;

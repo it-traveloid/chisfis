@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
-import { getProductsByCollectionHelper } from '~/utilities/strapi-fetch-data-helpers';
-import Product from '~/components/elements/products/Product';
-import useGetProducts from '~/hooks/useGetProducts';
+import { getProductsByCollectionHelper } from '@/utilities/strapi-fetch-data-helpers';
+import Product from '@/components/elements/products/Product';
+import useGetProducts from '@/hooks/useGetProducts';
 
 const OrganicNewArrivals = ({ collectionSlug }) => {
     const { productItems, loading, getProductsByCollection } = useGetProducts();

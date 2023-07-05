@@ -1,9 +1,9 @@
 import React from 'react';
-import OrderTracking from '~/components/partials/account/OrderTracking';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import PageContainer from '~/components/layouts/PageContainer';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
+import OrderTracking from '@/../../components/partials/account/OrderTracking';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import Newletters from '@/../../components/partials/commons/Newletters';
 
 const OrderTrackingPage = () => {
     const breadCrumb = [

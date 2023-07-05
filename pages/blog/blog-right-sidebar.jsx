@@ -1,13 +1,13 @@
 import React from 'react';
-import BreadCrumb2 from '~/components/elements/BreadCrumb2';
-import WidgetBlogSearch from '~/components/shared/widgets/WidgetBlogSearch';
-import WidgetBlogCategories from '~/components/shared/widgets/WidgetBlogCategories';
-import WidgetBlogRecentPosts from '~/components/shared/widgets/WidgetBlogRecentPosts';
-import WidgetBlogRecentComments from '~/components/shared/widgets/WidgetBlogRecentComments';
-import ModulePostGridItems from '~/components/partials/blog/modules/ModulePostGridItems';
-import Newletters from '~/components/partials/commons/Newletters';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import PageContainer from '~/components/layouts/PageContainer';
+import BreadCrumb2 from '@/../../components/elements/BreadCrumb2';
+import WidgetBlogSearch from '@/../../components/shared/widgets/WidgetBlogSearch';
+import WidgetBlogCategories from '@/../../components/shared/widgets/WidgetBlogCategories';
+import WidgetBlogRecentPosts from '@/../../components/shared/widgets/WidgetBlogRecentPosts';
+import WidgetBlogRecentComments from '@/../../components/shared/widgets/WidgetBlogRecentComments';
+import ModulePostGridItems from '@/../../components/partials/blog/modules/ModulePostGridItems';
+import Newletters from '@/../../components/partials/commons/Newletters';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import PageContainer from '@/../../components/layouts/PageContainer';
 
 const BlogRightSidebarPage = () => {
     const breadCrumb = [

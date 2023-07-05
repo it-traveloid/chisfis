@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Slider from 'react-slick';
-import { getProductsByCategoriesHelper } from '~/utilities/strapi-fetch-data-helpers';
-import Product from '~/components/elements/products/Product';
-import { carouselStandard } from '~/utilities/carousel-helpers';
-import useGetProducts from '~/hooks/useGetProducts';
+import { getProductsByCategoriesHelper } from '@/utilities/strapi-fetch-data-helpers';
+import Product from '@/components/elements/products/Product';
+import { carouselStandard } from '@/utilities/carousel-helpers';
+import useGetProducts from '@/hooks/useGetProducts';
 
 const Market2ProductGroupByCategory = ({ categorySlug, title }) => {
     const { productItems, loading, getProductsByCategory } = useGetProducts();

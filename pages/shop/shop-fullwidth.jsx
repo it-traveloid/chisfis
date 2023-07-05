@@ -1,12 +1,12 @@
 import React from 'react';
-import ShopBanner from '~/components/partials/shop/ShopBanner';
-import ShopBrands from '~/components/partials/shop/ShopBrands';
-import ShopCategories from '~/components/partials/shop/ShopCategories';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import ShopItems from '~/components/partials/shop/ShopItems';
-import ProductGroupByCarousel from '~/components/partials/product/ProductGroupByCarousel';
-import PageContainer from '~/components/layouts/PageContainer';
-import Newletters from '~/components/partials/commons/Newletters';
+import ShopBanner from '@/../../components/partials/shop/ShopBanner';
+import ShopBrands from '@/../../components/partials/shop/ShopBrands';
+import ShopCategories from '@/../../components/partials/shop/ShopCategories';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import ShopItems from '@/../../components/partials/shop/ShopItems';
+import ProductGroupByCarousel from '@/../../components/partials/product/ProductGroupByCarousel';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import Newletters from '@/../../components/partials/commons/Newletters';
 
 const ShopFullwidthPage = () => {
     const breadCrumb = [

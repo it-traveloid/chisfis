@@ -1,7 +1,7 @@
 import React from 'react';
 import AccountMenuSidebar from './modules/AccountMenuSidebar';
 import TableNotifications from './modules/TableNotifications';
-import { getWithActive } from '~/components/utils/account/AccountLinks.js';
+import { getWithActive } from '@/components/utils/account/AccountLinks.js';
 import { Table, Divider, Tag } from 'antd';
 
 const Notifications = () => {

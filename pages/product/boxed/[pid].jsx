@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import ProductRepository from '~/repositories/ProductRepository';
-import SkeletonProductDetail from '~/components/elements/skeletons/SkeletonProductDetail';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import CustomerBought from '~/components/partials/product/CustomerBought';
-import RelatedProduct from '~/components/partials/product/RelatedProduct';
-import ProductDetailBox from '~/components/elements/detail/ProductDetailBox';
-import PageContainer from '~/components/layouts/PageContainer';
-import Newsletters from '~/components/partials/commons/Newletters';
+import ProductRepository from '@/../../repositories/ProductRepository';
+import SkeletonProductDetail from '@/../../components/elements/skeletons/SkeletonProductDetail';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import CustomerBought from '@/../../components/partials/product/CustomerBought';
+import RelatedProduct from '@/../../components/partials/product/RelatedProduct';
+import ProductDetailBox from '@/../../components/elements/detail/ProductDetailBox';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import Newsletters from '@/../../components/partials/commons/Newletters';
 
 const ProductDefaultBoxedPage = () => {
     const router = useRouter();

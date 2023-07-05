@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import shop_data from '~/public/static/data/shopCategories';
+import shop_data from '@/public/static/data/shopCategories';
 
 const ShopCategories = () => (
     <div className="ps-shop-categories">

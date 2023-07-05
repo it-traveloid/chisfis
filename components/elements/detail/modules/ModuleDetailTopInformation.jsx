@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Rating from '~/components/elements/Rating';
+import Rating from '@/../../components/elements/Rating';
 
 const ModuleDetailTopInformation = ({ product }) => {
     // Views

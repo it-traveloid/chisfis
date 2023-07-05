@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Slider from 'react-slick';
-import ProductDealOfDay from '~/components/elements/products/ProductDealOfDay';
-import { generateTempArray } from '~/utilities/common-helpers';
-import SkeletonProduct from '~/components/elements/skeletons/SkeletonProduct';
-import { getProductsByCollectionHelper } from '~/utilities/strapi-fetch-data-helpers';
-import { carouselStandard } from '~/utilities/carousel-helpers';
-import CountDownSimple from '~/components/elements/CountDownSimple';
-import useGetProducts from '~/hooks/useGetProducts';
+import ProductDealOfDay from '@/components/elements/products/ProductDealOfDay';
+import { generateTempArray } from '@/utilities/common-helpers';
+import SkeletonProduct from '@/components/elements/skeletons/SkeletonProduct';
+import { getProductsByCollectionHelper } from '@/utilities/strapi-fetch-data-helpers';
+import { carouselStandard } from '@/utilities/carousel-helpers';
+import CountDownSimple from '@/components/elements/CountDownSimple';
+import useGetProducts from '@/hooks/useGetProducts';
 
 const MarketPlaceDealOfDay = ({ collectionSlug }) => {
     const { productItems, loading, getProductsByCollection } = useGetProducts();

@@ -1,4 +1,4 @@
-import {axiosClient} from "~/repositories/axios";
+import {axiosClient} from "../repositories/axios";
 
 class CategoriesAPI {
     async getCategories() {

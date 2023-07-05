@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import ModuleStoreInformation from '~/components/partials/stores/modules/ModuleStoreInformation';
-import ProductGroupByCarousel from '~/components/partials/product/ProductGroupByCarousel';
-import ModuleStoreItems from '~/components/partials/stores/modules/ModuleStoreItems';
-import StoreRepository from '~/repositories/StoreRepository';
+import ModuleStoreInformation from '@/components/partials/stores/modules/ModuleStoreInformation';
+import ProductGroupByCarousel from '@/components/partials/product/ProductGroupByCarousel';
+import ModuleStoreItems from '@/components/partials/stores/modules/ModuleStoreItems';
+import StoreRepository from '@/repositories/StoreRepository';
 import { useRouter } from 'next/router';
 
 const StoreDetail = () => {

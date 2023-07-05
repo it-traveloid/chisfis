@@ -1,14 +1,14 @@
 import React from 'react';
-import ProductGroupDealOfDay from '~/components/partials/product/ProductGroupDealOfDay';
-import ElectronicProductGroupWithCarousel from '~/components/partials/homepage/electronic/ElectronicProductGroupWithCarousel';
-import ElectronicBanner from '~/components/partials/homepage/electronic/ElectronicBanner';
-import ElectronicTopCategories from '~/components/partials/homepage/electronic/ElectronicTopCategories';
-import ElectronicPromotions2 from '~/components/partials/homepage/electronic/ElectronicPromotions2';
-import SiteFeatures from '~/components/partials/homepage/autopart/SiteFeatures';
-import PageContainer from '~/components/layouts/PageContainer';
-import HeaderElectronic from '~/components/shared/headers/HeaderElectronic';
-import HeaderMobileElectronic from '~/components/shared/headers/HeaderMobileElectronic';
-import FooterSecond from '~/components/shared/footers/FooterSecond';
+import ProductGroupDealOfDay from '@/../../components/partials/product/ProductGroupDealOfDay';
+import ElectronicProductGroupWithCarousel from '@/../../components/partials/homepage/electronic/ElectronicProductGroupWithCarousel';
+import ElectronicBanner from '@/../../components/partials/homepage/electronic/ElectronicBanner';
+import ElectronicTopCategories from '@/../../components/partials/homepage/electronic/ElectronicTopCategories';
+import ElectronicPromotions2 from '@/../../components/partials/homepage/electronic/ElectronicPromotions2';
+import SiteFeatures from '@/../../components/partials/homepage/autopart/SiteFeatures';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import HeaderElectronic from '@/../../components/shared/headers/HeaderElectronic';
+import HeaderMobileElectronic from '@/../../components/shared/headers/HeaderMobileElectronic';
+import FooterSecond from '@/../../components/shared/footers/FooterSecond';
 
 const HomeElectronicsPage = () => {
     const smartPhoneLinks = ['Iphone, Ipad, Samsung'];

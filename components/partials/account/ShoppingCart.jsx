@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import Link from 'next/link';
-import ModuleEcomerceCartItems from '~/components/ecomerce/modules/ModuleEcomerceCartItems';
-import ModuleCartSummary from '~/components/ecomerce/modules/ModuleCartSummary';
+import ModuleEcomerceCartItems from '@/components/ecomerce/modules/ModuleEcomerceCartItems';
+import ModuleCartSummary from '@/components/ecomerce/modules/ModuleCartSummary';
 
 const ShoppingCart = ({ source }) => {
     const [cartItems, setCartItems] = useState(null);

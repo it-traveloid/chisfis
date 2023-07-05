@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import ProductRepository from '~/repositories/ProductRepository';
+import ProductRepository from '../repositories/ProductRepository';
 import { useCookies } from 'react-cookie';
 import { useDispatch } from 'react-redux';
 import {
     setCompareItems,
     setWishlistTtems,
     setCartItems,
-} from '~/store/ecomerce/action';
+} from '../store/ecomerce/action';
 
 export default function useEcomerce() {
     const dispatch = useDispatch();

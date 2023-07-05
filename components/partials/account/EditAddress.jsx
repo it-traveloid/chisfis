@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FormEditAddress from './modules/FormEditAddress';
-import { getWithActive } from '~/components/utils/account/AccountLinks.js';
+import { getWithActive } from '@/components/utils/account/AccountLinks.js';
 import AccountMenuSidebar from './modules/AccountMenuSidebar';
 
 class EditAddress extends Component {

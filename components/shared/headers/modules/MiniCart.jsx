@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import Link from 'next/link';
-import ProductOnCart from '~/components/elements/products/ProductOnCart';
-import useEcomerce from '~/hooks/useEcomerce';
-import { calculateAmount } from '~/utilities/ecomerce-helpers';
+import ProductOnCart from '../../../../components/elements/products/ProductOnCart';
+import useEcomerce from '../../../../hooks/useEcomerce';
+import { calculateAmount } from '../../../../utilities/ecomerce-helpers';
 
 const MiniCart = ({ ecomerce }) => {
     const { products, removeItem, removeItems, getProducts } = useEcomerce();

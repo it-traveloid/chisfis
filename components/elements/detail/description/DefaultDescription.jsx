@@ -1,11 +1,11 @@
 import React from 'react';
 
 import { Tabs } from 'antd';
-import PartialDescription from '~/components/elements/detail/description/PartialDescription';
-import PartialSpecification from '~/components/elements/detail/description/PartialSpecification';
-import PartialVendor from '~/components/elements/detail/description/PartialVendor';
-import PartialReview from '~/components/elements/detail/description/PartialReview';
-import PartialOffer from '~/components/elements/detail/description/PartialOffer';
+import PartialDescription from '@/components/elements/detail/description/PartialDescription';
+import PartialSpecification from '@/components/elements/detail/description/PartialSpecification';
+import PartialVendor from '@/components/elements/detail/description/PartialVendor';
+import PartialReview from '@/components/elements/detail/description/PartialReview';
+import PartialOffer from '@/components/elements/detail/description/PartialOffer';
 
 const { TabPane } = Tabs;
 

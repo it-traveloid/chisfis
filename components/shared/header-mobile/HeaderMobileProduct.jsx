@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import MobileHeaderActions from '../headers/modules/MobileHeaderActions';
 import Link from 'next/link';
-import { stickyHeader } from '~/utilities/common-helpers';
+import { stickyHeader } from '@/utilities/common-helpers';
 
 const HeaderMobileProduct = () => {
     const stickyHeader = () => {

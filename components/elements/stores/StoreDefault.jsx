@@ -1,5 +1,5 @@
 import React from 'react';
-import Rating from '~/components/elements/Rating';
+import Rating from '@/components/elements/Rating';
 import Link from 'next/link';
 
 const StoreDefault = ({ source }) => {

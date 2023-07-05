@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { connect } from 'react-redux';
-import useEcomerce from '~/hooks/useEcomerce';
-import { calculateAmount } from '~/utilities/ecomerce-helpers';
+import useEcomerce from '@/hooks/useEcomerce';
+import { calculateAmount } from '@/utilities/ecomerce-helpers';
 
 const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
     const { products, getProducts } = useEcomerce();

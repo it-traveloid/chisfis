@@ -1,6 +1,6 @@
 import React from 'react';
 import LazyLoad from 'react-lazyload';
-import { baseUrl } from '~/repositories/Repository';
+import { baseUrl } from '../repositories/Repository';
 import Link from 'next/link';
 
 export function formatCurrency(num) {

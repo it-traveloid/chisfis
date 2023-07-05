@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AccountMenuSidebar from './modules/AccountMenuSidebar';
 import TableInvoices from './modules/TableInvoices';
-import { getWithActive } from '~/components/utils/account/AccountLinks.js';
+import { getWithActive } from '@/components/utils/account/AccountLinks.js';
 
 class Invoices extends Component {
     constructor(props) {

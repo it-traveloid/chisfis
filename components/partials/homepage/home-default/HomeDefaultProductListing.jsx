@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import SkeletonProduct from '~/components/elements/skeletons/SkeletonProduct';
-import { generateTempArray } from '~/utilities/common-helpers';
-import { ProductGroupWithCarousel } from '~/components/partials/product/ProductGroupWithCarousel';
-import useGetProducts from '~/hooks/useGetProducts';
+import SkeletonProduct from '@/../../components/elements/skeletons/SkeletonProduct';
+import { generateTempArray } from '@/../../utilities/common-helpers';
+import { ProductGroupWithCarousel } from '@/../../components/partials/product/ProductGroupWithCarousel';
+import useGetProducts from '@/../../hooks/useGetProducts';
 
 const HomeDefaultProductListing = ({ collectionSlug, title }) => {
     const [currentCollection, setCurrentCollection] = useState('new-arrivals');

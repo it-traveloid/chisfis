@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { connect, useDispatch } from 'react-redux';
-import useEcomerce from '~/hooks/useEcomerce';
+import useEcomerce from '@/../../hooks/useEcomerce';
 import { useRouter } from 'next/router';
 import { useSession, signIn, signOut } from "next-auth/react"
 

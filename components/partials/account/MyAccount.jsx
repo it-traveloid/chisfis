@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 import AccountMenuSidebar from './modules/AccountMenuSidebar';
-import { getWithActive } from '~/components/utils/account/AccountLinks.js';
+import { getWithActive } from '@/components/utils/account/AccountLinks.js';
 import { useEffect } from 'react';
 import { useSession } from "next-auth/react"
-// import { useCheckSession } from '~/hooks/useCheckSession';
+// import { useCheckSession } from '@/hooks/useCheckSession';
 import {useRouter} from 'next/router';
 
 const MyAccount = () => {

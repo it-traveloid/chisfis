@@ -5,7 +5,17 @@
             "~/*": ["./*"],
             "@/*": ["./*"],
             "~~/*": ["./*"],
-            "@@/*": ["./*"]
+            "@@/*": ["./*"],
+            "@/api/*": ["api/*"],
+            "@/components/*": ["components/*"],
+            "@/hooks/*": ["hooks/*"],
+            "@/pages/*": ["pages/*"],
+            "@/prisma/*": ["prisma/*"],
+            "@/public/*": ["public/*"],
+            "@/repositories/*": ["repositories/*"],
+            "@/scss/*": ["scss/*"],
+            "@/store/*": ["store/*"],
+            "@/utilities/*": ["utilities/*"]
         }
     },
     "exclude": ["node_modules", ".nuxt", "dist"]

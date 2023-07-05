@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import ModuleProductActions from '~/components/elements/products/modules/ModuleProductActions';
-import useProduct from '~/hooks/useProduct';
-import Rating from '~/components/elements/Rating';
+import ModuleProductActions from '@/../../components/elements/products/modules/ModuleProductActions';
+import useProduct from '@/../../hooks/useProduct';
+import Rating from '@/../../components/elements/Rating';
 
 const Product = ({product}) => {
     const {thumbnailImage, price, badge, title} = useProduct();

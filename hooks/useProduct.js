@@ -1,7 +1,7 @@
 import React from 'react';
 import LazyLoad from 'react-lazyload';
-import { baseUrl } from '~/repositories/Repository';
-import { formatCurrency } from '~/utilities/product-helper';
+import { baseUrl } from '../repositories/Repository';
+import { formatCurrency } from '../utilities/product-helper';
 import Link from 'next/link';
 
 function getImageURL(source, size) {

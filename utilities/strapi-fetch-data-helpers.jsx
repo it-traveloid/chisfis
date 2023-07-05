@@ -5,8 +5,8 @@
  * */
 
 import React from 'react';
-import CollectionRepository from '~/repositories/CollectionRepository';
-import ProductRepository from '~/repositories/ProductRepository';
+import CollectionRepository from '@../../../repositories/CollectionRepository';
+import ProductRepository from '@../../../repositories/ProductRepository';
 
 export async function getProductsByCollectionHelper(
     collectionSlug,

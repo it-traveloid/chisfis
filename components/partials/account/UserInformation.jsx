@@ -1,7 +1,7 @@
 import React from 'react';
 import AccountMenuSidebar from './modules/AccountMenuSidebar';
-import FormChangeUserInformation from '~/components/shared/FormChangeUserInformation';
-import { getWithActive } from '~/components/utils/account/AccountLinks.js';
+import FormChangeUserInformation from '@/components/shared/FormChangeUserInformation';
+import { getWithActive } from '@/components/utils/account/AccountLinks.js';
 
 const UserInformation = () => {
     const accountLinks = getWithActive('Редактировать профиль');

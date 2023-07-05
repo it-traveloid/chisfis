@@ -1,6 +1,6 @@
 import {useState} from 'react';
-import {getProductsByCategoriesHelper, getProductsByCollectionHelper,} from '~/utilities/strapi-fetch-data-helpers';
-import ProductRepository from '~/repositories/ProductRepository';
+import {getProductsByCategoriesHelper, getProductsByCollectionHelper,} from '@../../../utilities/strapi-fetch-data-helpers';
+import ProductRepository from '@../../../repositories/ProductRepository';
 
 const useGetProducts = () => {
     const [loading, setLoading] = useState(false);

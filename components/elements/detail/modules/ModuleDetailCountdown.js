@@ -1,5 +1,5 @@
 import React from 'react';
-import CountDown from '~/components/elements/CountDown';
+import CountDown from '@/../../components/elements/CountDown';
 
 const ModuleDetailCountdown = () => {
     return (

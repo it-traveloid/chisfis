@@ -1,14 +1,14 @@
 import React from 'react';
-import ProductGroupDealOfDay from '~/components/partials/product/ProductGroupDealOfDay';
-import TechnologyProductGroupWithCarousel from '~/components/partials/homepage/technology/TechnologyProductGroupWithCarousel';
-import TechnologyBanner from '~/components/partials/homepage/technology/TechnologyBanner';
-import TechnologySiteFeatures from '~/components/partials/homepage/technology/TechnologySiteFeatures';
-import TechnologyPromotions from '~/components/partials/homepage/technology/TechnologyPromotions';
-import TechnologyTopCategories from '~/components/partials/homepage/technology/TechnologyTopCategories';
-import HeaderTechnology from '~/components/shared/headers/HeaderTechnology';
-import HeaderMobileTechnology from '~/components/shared/headers/HeaderMobileTechnology';
-import FooterSecond from '~/components/shared/footers/FooterSecond';
-import PageContainer from '~/components/layouts/PageContainer';
+import ProductGroupDealOfDay from '@/../../components/partials/product/ProductGroupDealOfDay';
+import TechnologyProductGroupWithCarousel from '@/../../components/partials/homepage/technology/TechnologyProductGroupWithCarousel';
+import TechnologyBanner from '@/../../components/partials/homepage/technology/TechnologyBanner';
+import TechnologySiteFeatures from '@/../../components/partials/homepage/technology/TechnologySiteFeatures';
+import TechnologyPromotions from '@/../../components/partials/homepage/technology/TechnologyPromotions';
+import TechnologyTopCategories from '@/../../components/partials/homepage/technology/TechnologyTopCategories';
+import HeaderTechnology from '@/../../components/shared/headers/HeaderTechnology';
+import HeaderMobileTechnology from '@/../../components/shared/headers/HeaderMobileTechnology';
+import FooterSecond from '@/../../components/shared/footers/FooterSecond';
+import PageContainer from '@/../../components/layouts/PageContainer';
 
 const HomeTechnologyPage = () => {
     const smartPhoneLinks = ['Iphone, Ipad, Samsung'];

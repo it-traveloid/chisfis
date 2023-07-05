@@ -1,7 +1,7 @@
 import React from 'react';
 import AccountMenuSidebar from './modules/AccountMenuSidebar';
-import { getWithActive } from '~/components/utils/account/AccountLinks.js';
-import AccountProductList from '~/components/partials/account/modules/AccountProductList';
+import { getWithActive } from '@/components/utils/account/AccountLinks.js';
+import AccountProductList from '@/components/partials/account/modules/AccountProductList';
 
 const RecentViewedProducts = () => {
     const accountLinks = getWithActive('Недавно просмотренные товары');

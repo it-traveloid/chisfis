@@ -1,11 +1,11 @@
 import React from 'react';
 import { Progress } from 'antd';
 import Link from 'next/link';
-import { formatCurrency } from '~/utilities/product-helper';
-import Rating from '~/components/elements/Rating';
-import CountDown from '~/components/elements/CountDown';
-import ThumbnailWithBadge from '~/components/elements/detail/thumbnail/ThumbnailWithBadge';
-import useProduct from '~/hooks/useProduct';
+import { formatCurrency } from '@/../../utilities/product-helper';
+import Rating from '@/../../components/elements/Rating';
+import CountDown from '@/../../components/elements/CountDown';
+import ThumbnailWithBadge from '@/../../components/elements/detail/thumbnail/ThumbnailWithBadge';
+import useProduct from '@/../../hooks/useProduct';
 
 const ProductDealHot = ({ product }) => {
     const { thumbnailImage, price, badge } = useProduct();

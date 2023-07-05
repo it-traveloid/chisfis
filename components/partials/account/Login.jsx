@@ -2,7 +2,7 @@ import React, { useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import { useSession, signIn } from "next-auth/react"
 import { Form, Input } from 'antd';
-// import { useCheckSession } from '~/hooks/useCheckSession';
+// import { useCheckSession } from '@/hooks/useCheckSession';
 import {useRouter} from 'next/router';
 
 const Login = ({ error }) => {

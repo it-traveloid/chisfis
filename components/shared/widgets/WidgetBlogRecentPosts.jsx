@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import PostRepository from '~/repositories/PostRepository';
+import PostRepository from '@/repositories/PostRepository';
 
 const WidgetBlogRecentPosts = () => {
     const [loading, setLoading] = useState(true);

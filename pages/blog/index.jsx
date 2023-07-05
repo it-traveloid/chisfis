@@ -1,9 +1,9 @@
 import React from 'react';
-import BlogItemsGridView from '~/components/partials/blog/BlogItemsGridView';
-import BreadCrumb2 from '~/components/elements/BreadCrumb2';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import PageContainer from '~/components/layouts/PageContainer';
-import Newletters from '~/components/partials/commons/Newletters';
+import BlogItemsGridView from '@/../../components/partials/blog/BlogItemsGridView';
+import BreadCrumb2 from '@/../../components/elements/BreadCrumb2';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import Newletters from '@/../../components/partials/commons/Newletters';
 
 const BlogGridPage = () => {
     const breadCrumb = [

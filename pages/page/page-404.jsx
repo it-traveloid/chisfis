@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import PageContainer from '~/components/layouts/PageContainer';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
 
 const Page404 = () => {
     return (

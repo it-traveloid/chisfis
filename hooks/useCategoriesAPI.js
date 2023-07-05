@@ -1,5 +1,5 @@
 import {useState} from "react";
-import CategoriesAPI from "~/repositories/CategoriesAPI";
+import CategoriesAPI from "../repositories/CategoriesAPI";
 
 const UseCategoriesApi = () => {
     const [loading, setLoading] = useState(false);

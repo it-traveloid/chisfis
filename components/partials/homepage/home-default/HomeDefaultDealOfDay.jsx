@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import Link from 'next/link';
 import Slider from 'react-slick';
-import SkeletonProduct from '~/components/elements/skeletons/SkeletonProduct';
-import { carouselFullwidth } from '~/utilities/carousel-helpers';
-import CountDownSimple from '~/components/elements/CountDownSimple';
-import ProductDealOfDay from '~/components/elements/products/ProductDealOfDay';
-import { generateTempArray } from '~/utilities/common-helpers';
-import useGetProducts from '~/hooks/useGetProducts';
+import SkeletonProduct from '@/../../components/elements/skeletons/SkeletonProduct';
+import { carouselFullwidth } from '@/../../utilities/carousel-helpers';
+import CountDownSimple from '@/../../components/elements/CountDownSimple';
+import ProductDealOfDay from '@/../../components/elements/products/ProductDealOfDay';
+import { generateTempArray } from '@/../../utilities/common-helpers';
+import useGetProducts from '@/../../hooks/useGetProducts';
 
 const HomeDefaultDealOfDay = ({ collectionSlug }) => {
     const { productItems, loading, getProductsByCollection } = useGetProducts();

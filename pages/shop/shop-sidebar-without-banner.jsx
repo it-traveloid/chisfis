@@ -1,12 +1,12 @@
 import React from 'react';
-import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
-import WidgetShopBrands from '~/components/shared/widgets/WidgetShopBrands';
-import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
-import ShopItems from '~/components/partials/shop/ShopItems';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
-import PageContainer from '~/components/layouts/PageContainer';
+import WidgetShopCategories from '@/../../components/shared/widgets/WidgetShopCategories';
+import WidgetShopBrands from '@/../../components/shared/widgets/WidgetShopBrands';
+import WidgetShopFilterByPriceRange from '@/../../components/shared/widgets/WidgetShopFilterByPriceRange';
+import ShopItems from '@/../../components/partials/shop/ShopItems';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import Newletters from '@/../../components/partials/commons/Newletters';
+import PageContainer from '@/../../components/layouts/PageContainer';
 
 const ShopSidebarWithoutBannerPage = () => {
     const breadCrumb = [

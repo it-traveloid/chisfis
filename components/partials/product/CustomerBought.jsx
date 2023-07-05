@@ -3,9 +3,9 @@ import Slider from 'react-slick';
 import {
     carouselFullwidth,
     carouselStandard,
-} from '~/utilities/carousel-helpers';
-import Product from '~/components/elements/products/Product';
-import { getProductsByCollectionHelper } from '~/utilities/strapi-fetch-data-helpers';
+} from '@/../../utilities/carousel-helpers';
+import Product from '@/../../components/elements/products/Product';
+import { getProductsByCollectionHelper } from '@/../../utilities/strapi-fetch-data-helpers';
 import axios from 'axios';
 const CustomerBought = ({ collectionSlug, boxed, layout }) => {
     const [productItems, setProductItems] = useState(null);

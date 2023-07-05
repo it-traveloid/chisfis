@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import useEcomerce from '~/hooks/useEcomerce';
+import useEcomerce from '../../../hooks/useEcomerce';
 import { Result } from 'antd';
-import ProductCart from '~/components/elements/products/ProductCart';
+import ProductCart from '../../../components/elements/products/ProductCart';
 
 const ModuleEcomerceCartItems = ({ ecomerce, cartItems }) => {
     const { increaseQty, decreaseQty, removeItem } = useEcomerce();

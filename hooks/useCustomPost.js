@@ -5,7 +5,7 @@
 import { useState } from 'react';
 import Moment from 'moment';
 import Link from 'next/link';
-import { baseUrl } from '~/repositories/Repository';
+import { baseUrl } from '@../../../repositories/Repository';
 import LazyLoad from 'react-lazyload';
 
 export default function useCustomPost() {

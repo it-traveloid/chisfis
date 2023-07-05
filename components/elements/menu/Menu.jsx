@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import MenuDropdown from '~/components/elements/menu/MenuDropdown';
-import MegaMenu from '~/components/elements/menu/MegaMenu';
+import MenuDropdown from '../../../components/elements/menu/MenuDropdown';
+import MegaMenu from '../../../components/elements/menu/MegaMenu';
 
 const Menu = ({ source, className }) => {
     // Views

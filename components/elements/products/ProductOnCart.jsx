@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import useProduct from '~/hooks/useProduct';
+import useProduct from '../../../hooks/useProduct';
 
 const ProductOnCart = ({ product, children }) => {
     const { thumbnailImage, title } = useProduct();

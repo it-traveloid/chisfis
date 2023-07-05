@@ -2,9 +2,9 @@ import {useEffect, useState} from 'react';
 import Link from 'next/link';
 import Router from 'next/router';
 import {Spin} from 'antd';
-import ProductSearchResult from '~/components/elements/products/ProductSearchResult';
-import useCategoriesAPI from "~/hooks/useCategoriesAPI";
-import UseGetAllCategories from "~/hooks/useGetAllCategories";
+import ProductSearchResult from '../../../../components/elements/products/ProductSearchResult';
+import useCategoriesAPI from "../../../../hooks/useCategoriesAPI";
+import UseGetAllCategories from "../../../../hooks/useGetAllCategories";
 
 function useDebounce(value, delay) {
     const [debouncedValue, setDebouncedValue] = useState(value);

@@ -1,10 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Slider from 'react-slick';
-import SkeletonProduct from '~/components/elements/skeletons/SkeletonProduct';
-import { generateTempArray } from '~/utilities/common-helpers';
-import { getProductsByCollectionHelper } from '~/utilities/strapi-fetch-data-helpers';
-import Product from '~/components/elements/products/Product';
-import { carouselStandard } from '~/utilities/carousel-helpers';
+import SkeletonProduct from '@/components/elements/skeletons/SkeletonProduct';
+import { generateTempArray } from '@/utilities/common-helpers';
+import { getProductsByCollectionHelper } from '@/utilities/strapi-fetch-data-helpers';
+import Product from '@/components/elements/products/Product';
+import { carouselStandard } from '@/utilities/carousel-helpers';
 
 const BestSaleItems = ({ collectionSlug }) => {
     const sliderRef = useRef(null);

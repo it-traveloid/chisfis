@@ -1,5 +1,5 @@
 import {useState} from "react";
-import ProductAPI from "~/repositories/ProductsAPI";
+import ProductAPI from "@../../../repositories/ProductsAPI";
 
 
 const useProductsAPI = () => {

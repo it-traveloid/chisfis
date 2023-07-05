@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import Link from 'next/link';
-import ModuleProductDetailSharing from '~/components/elements/detail/modules/ModuleProductDetailSharing';
-import ModuleProductDetailSpecification from '~/components/elements/detail/modules/ModuleProductDetailSpecification';
-import ModuleProductDetailDescription from '~/components/elements/detail/modules/ModuleProductDetailDescription';
-import Rating from '~/components/elements/Rating';
-import ThumbnailHasVariant from '~/components/elements/detail/thumbnail/ThumbnailHasVariant';
-import { baseUrl } from '~/repositories/Repository';
+import ModuleProductDetailSharing from '@/../../components/elements/detail/modules/ModuleProductDetailSharing';
+import ModuleProductDetailSpecification from '@/../../components/elements/detail/modules/ModuleProductDetailSpecification';
+import ModuleProductDetailDescription from '@/../../components/elements/detail/modules/ModuleProductDetailDescription';
+import Rating from '@/../../components/elements/Rating';
+import ThumbnailHasVariant from '@/../../components/elements/detail/thumbnail/ThumbnailHasVariant';
+import { baseUrl } from '@/../../repositories/Repository';
 import { useRouter } from 'next/router';
-import useEcomerce from '~/hooks/useEcomerce';
+import useEcomerce from '@/../../hooks/useEcomerce';
 import { Modal } from 'antd';
 
 const ModuleProductHasVariants = ({ ecomerce, currency, product }) => {

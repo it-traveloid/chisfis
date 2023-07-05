@@ -1,10 +1,10 @@
 import {connect} from 'react-redux';
 import Link from 'next/link';
 import Rating from '../Rating';
-import {StrapiProductPriceExpanded} from '~/utilities/product-helper';
-import ModuleProductActions from '~/components/elements/products/modules/ModuleProductActions';
-import ModuleProductProgressbar from '~/components/elements/products/modules/ModuleProductProgressbar';
-import useProduct from '~/hooks/useProduct';
+import {StrapiProductPriceExpanded} from '@/../../utilities/product-helper';
+import ModuleProductActions from '@/../../components/elements/products/modules/ModuleProductActions';
+import ModuleProductProgressbar from '@/../../components/elements/products/modules/ModuleProductProgressbar';
+import useProduct from '@/../../hooks/useProduct';
 
 const ProductDealOfDay = ({product}) => {
     const {thumbnailImage, badge, title} = useProduct();

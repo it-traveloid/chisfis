@@ -1,11 +1,11 @@
 import React from 'react';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import ShopCarouselBanner from '~/components/partials/shop/ShopCarouselBanner';
-import ShopCarouselTopDeal from '~/components/partials/shop/ShopCarouselTopDeal';
-import ProductGroupByCarousel from '~/components/partials/product/ProductGroupByCarousel';
-import PageContainer from '~/components/layouts/PageContainer';
-import Newletters from '~/components/partials/commons/Newletters';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import ShopCarouselBanner from '@/../../components/partials/shop/ShopCarouselBanner';
+import ShopCarouselTopDeal from '@/../../components/partials/shop/ShopCarouselTopDeal';
+import ProductGroupByCarousel from '@/../../components/partials/product/ProductGroupByCarousel';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import Newletters from '@/../../components/partials/commons/Newletters';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
 
 const ShopCategoriesPage = () => {
     const breadCrumb = [

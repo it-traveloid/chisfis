@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import ProductRepository from '~/repositories/ProductRepository';
-import Product from '~/components/elements/products/Product';
-import SkeletonProduct from '~/components/elements/skeletons/SkeletonProduct';
-import CollectionRepository from '~/repositories/CollectionRepository';
-import {generateTempArray} from '~/utilities/common-helpers';
+import ProductRepository from '@/../../repositories/ProductRepository';
+import Product from '@/../../components/elements/products/Product';
+import SkeletonProduct from '@/../../components/elements/skeletons/SkeletonProduct';
+import CollectionRepository from '@/../../repositories/CollectionRepository';
+import {generateTempArray} from '@/../../utilities/common-helpers';
 
 const ProductGroupGridItems = ({
                                    collectionSlug, columns = 3, pageSize = 12,

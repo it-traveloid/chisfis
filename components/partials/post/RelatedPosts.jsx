@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import PostRepository from '~/repositories/PostRepository';
-import PostGrid from '~/components/elements/post/PostGrid';
+import PostRepository from '@/repositories/PostRepository';
+import PostGrid from '@/components/elements/post/PostGrid';
 
 const RelatedPosts = () => {
     const [loading, setLoading] = useState(true);

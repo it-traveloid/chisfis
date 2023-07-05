@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { connect, useDispatch } from 'react-redux';
 import { useRouter } from 'next/router';
 import { Modal } from 'antd';
-import useEcomerce from '~/hooks/useEcomerce';
+import useEcomerce from '@/../../hooks/useEcomerce';
 import { useSession, signIn, signOut } from "next-auth/react"
 
 const ModuleDetailShoppingActions = ({

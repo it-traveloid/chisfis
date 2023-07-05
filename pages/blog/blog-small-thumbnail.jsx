@@ -1,15 +1,15 @@
 import React from 'react';
 
-import BreadCrumb2 from '~/components/elements/BreadCrumb2';
+import BreadCrumb2 from '@/../../components/elements/BreadCrumb2';
 
-import WidgetBlogSearch from '~/components/shared/widgets/WidgetBlogSearch';
-import WidgetBlogCategories from '~/components/shared/widgets/WidgetBlogCategories';
-import WidgetBlogRecentPosts from '~/components/shared/widgets/WidgetBlogRecentPosts';
-import WidgetBlogRecentComments from '~/components/shared/widgets/WidgetBlogRecentComments';
-import ModulePostSmallThumbItems from '~/components/partials/blog/modules/ModulePostSmallThumbItems';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import PageContainer from '~/components/layouts/PageContainer';
-import Newletters from '~/components/partials/commons/Newletters';
+import WidgetBlogSearch from '@/../../components/shared/widgets/WidgetBlogSearch';
+import WidgetBlogCategories from '@/../../components/shared/widgets/WidgetBlogCategories';
+import WidgetBlogRecentPosts from '@/../../components/shared/widgets/WidgetBlogRecentPosts';
+import WidgetBlogRecentComments from '@/../../components/shared/widgets/WidgetBlogRecentComments';
+import ModulePostSmallThumbItems from '@/../../components/partials/blog/modules/ModulePostSmallThumbItems';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import Newletters from '@/../../components/partials/commons/Newletters';
 
 const BlogSmallThumbnailPage = () => {
     const breadCrumb = [

@@ -1,12 +1,12 @@
 import React, { useRef, useEffect } from 'react';
 import Slider from 'react-slick';
-import SkeletonProduct from '~/components/elements/skeletons/SkeletonProduct';
-import { generateTempArray } from '~/utilities/common-helpers';
-import Product from '~/components/elements/products/Product';
-import { carouselStandard } from '~/utilities/carousel-helpers';
-import NextArrow from '~/components/elements/carousel/NextArrow';
-import PrevArrow from '~/components/elements/carousel/PrevArrow';
-import useGetProducts from '~/hooks/useGetProducts';
+import SkeletonProduct from '@/../../components/elements/skeletons/SkeletonProduct';
+import { generateTempArray } from '@/../../utilities/common-helpers';
+import Product from '@/../../components/elements/products/Product';
+import { carouselStandard } from '@/../../utilities/carousel-helpers';
+import NextArrow from '@/../../components/elements/carousel/NextArrow';
+import PrevArrow from '@/../../components/elements/carousel/PrevArrow';
+import useGetProducts from '@/../../hooks/useGetProducts';
 
 const ProductGroupByCarousel = ({
     collectionSlug,

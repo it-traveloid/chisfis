@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Slider from 'react-slick';
-import { generateTempArray } from '~/utilities/common-helpers';
-import SkeletonProduct from '~/components/elements/skeletons/SkeletonProduct';
-import Product from '~/components/elements/products/Product';
-import { carouselStandard } from '~/utilities/carousel-helpers';
-import useGetProducts from '~/hooks/useGetProducts';
+import { generateTempArray } from '@/utilities/common-helpers';
+import SkeletonProduct from '@/components/elements/skeletons/SkeletonProduct';
+import Product from '@/components/elements/products/Product';
+import { carouselStandard } from '@/utilities/carousel-helpers';
+import useGetProducts from '@/hooks/useGetProducts';
 
 const AutopartRecommendForYou = ({ collectionSlug }) => {
     const { productItems, loading, getProductsByCollection } = useGetProducts();

@@ -1,14 +1,14 @@
 import React from 'react';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import CatalogTop from '~/components/partials/shop/CatalogTop';
-import ConsummerElectronics from '~/components/partials/shop/categories-box/ConsummerElectronics';
-import MoreCategories from '~/components/partials/shop/MoreCategories';
-import GardenAndKitchen from '~/components/partials/shop/categories-box/GardenAndKitchen';
-import ClothingAndApparel from '~/components/partials/shop/categories-box/ClothingAndApparel';
-import shop_categories from '~/public/static/data/shopCategories';
-import PageContainer from '~/components/layouts/PageContainer';
-import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
+import BreadCrumb from '@/../../components/elements/BreadCrumb';
+import CatalogTop from '@/../../components/partials/shop/CatalogTop';
+import ConsummerElectronics from '@/../../components/partials/shop/categories-box/ConsummerElectronics';
+import MoreCategories from '@/../../components/partials/shop/MoreCategories';
+import GardenAndKitchen from '@/../../components/partials/shop/categories-box/GardenAndKitchen';
+import ClothingAndApparel from '@/../../components/partials/shop/categories-box/ClothingAndApparel';
+import shop_categories from '@/../../public/static/data/shopCategories';
+import PageContainer from '@/../../components/layouts/PageContainer';
+import FooterDefault from '@/../../components/shared/footers/FooterDefault';
+import Newletters from '@/../../components/partials/commons/Newletters';
 
 const ShopCategoriesPage = () => {
     const breadCrumb = [

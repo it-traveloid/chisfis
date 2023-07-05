@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ProductRepository from '~/repositories/ProductRepository';
+import ProductRepository from '@/repositories/ProductRepository';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
