@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { AuthorType } from "../../data/types";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 // import { Link } from "react-router-dom";
-import { Link } from 'next/link';
+import Link from "next/link";
 import Avatar from "../../shared/Avatar/Avatar";
 import NcImage from "../../shared/NcImage/NcImage";
 import convertNumbThousand from "../../utils/convertNumbThousand";
