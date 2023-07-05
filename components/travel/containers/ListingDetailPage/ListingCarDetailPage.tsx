@@ -13,7 +13,7 @@ import {
   FocusedInputShape,
   isInclusivelyAfterDay,
 } from "react-dates";
-import Avatar from "../../shared/Avatar/Avatar";
+import Avatar from "../../../../shared/Avatar/Avatar";
 import Badge from "../../shared/Badge/Badge";
 import ButtonCircle from "../../shared/Button/ButtonCircle";
 import ButtonPrimary from "../../shared/Button/ButtonPrimary";

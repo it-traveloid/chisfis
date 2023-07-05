@@ -1,6 +1,6 @@
 import React from "react";
 import { FC } from "react";
-import Avatar from "shared/Avatar/Avatar";
+import Avatar from "../../shared/Avatar/Avatar";
 
 export interface CommentProps {
   isSmall?: boolean;

@@ -10,7 +10,7 @@ import {
   DEMO_STAY_LISTINGS,
 } from "data/listings";
 import React, { FC, Fragment, useState } from "react";
-import Avatar from "shared/Avatar/Avatar";
+import Avatar from "../../shared/Avatar/Avatar";
 import ButtonSecondary from "shared/Button/ButtonSecondary";
 import SocialsList from "shared/SocialsList/SocialsList";
 import { Helmet } from "react-helmet";

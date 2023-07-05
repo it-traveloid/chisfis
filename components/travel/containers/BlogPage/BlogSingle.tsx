@@ -2,7 +2,7 @@ import { DEMO_POSTS } from "data/posts";
 import { PostDataType } from "data/types";
 import React from "react";
 import { Link } from "react-router-dom";
-import Avatar from "shared/Avatar/Avatar";
+import Avatar from "../../shared/Avatar/Avatar";
 import Badge from "shared/Badge/Badge";
 import ButtonPrimary from "shared/Button/ButtonPrimary";
 import ButtonSecondary from "shared/Button/ButtonSecondary";

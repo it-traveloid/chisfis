@@ -1,6 +1,6 @@
 import Label from "components/Label/Label";
 import React, { FC } from "react";
-import Avatar from "shared/Avatar/Avatar";
+import Avatar from "../../shared/Avatar/Avatar";
 import ButtonPrimary from "shared/Button/ButtonPrimary";
 import Input from "shared/Input/Input";
 import Select from "shared/Select/Select";

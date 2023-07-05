@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { PostDataType } from "../../data/types";
 // import { Link } from "react-router-dom";
 import Link from "next/link";
-import Avatar from "shared/Avatar/Avatar";
+import Avatar from "../../shared/Avatar/Avatar";
 
 export interface CardAuthor2Props
   extends Pick<PostDataType, "date" | "author"> {
