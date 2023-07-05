@@ -1,4 +1,4 @@
-import { PostDataType } from "data/types";
+import { PostDataType } from "../../data/types";
 import React, { FC } from "react";
 import Badge from "../../shared/Badge/Badge";
 
