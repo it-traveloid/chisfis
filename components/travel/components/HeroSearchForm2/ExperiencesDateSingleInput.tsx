@@ -74,7 +74,7 @@ const ExperiencesDateSingleInput: FC<ExperiencesDateSingleInputProps> = ({
         }`}
     >
       <div className="absolute inset-0 flex">
-        <SingleDatePicker
+        {/* <SingleDatePicker
           date={startDate}
           onDateChange={(date) => setStartDate(date)}
           id={startDateId}
@@ -88,7 +88,7 @@ const ExperiencesDateSingleInput: FC<ExperiencesDateSingleInputProps> = ({
           anchorDirection={anchorDirection}
           showClearDate
           reopenPickerOnClearDate
-        />
+        /> */}
       </div>
 
       {renderInputCheckInDate()}
