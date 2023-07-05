@@ -1,11 +1,11 @@
 import React, { FC, useEffect, useRef, useState } from "react";
-import Logo from "shared/Logo/Logo";
+import Logo from "../shared/Logo/Logo";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import HeroSearchForm, {
   SearchTab,
 } from "../../components/HeroSearchForm2/HeroSearchForm";
 import { Link, useLocation } from "react-router-dom";
-import SwitchDarkMode from "s../../hared/SwitchDarkMode/SwitchDarkMode";
+import SwitchDarkMode from "../../shared/SwitchDarkMode/SwitchDarkMode";
 import NotifyDropdown from "./NotifyDropdown";
 import AvatarDropdown from "./AvatarDropdown";
 import MenuBar from "../../shared/MenuBar/MenuBar";

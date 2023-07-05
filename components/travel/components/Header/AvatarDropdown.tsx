@@ -74,7 +74,7 @@ export default function AvatarDropdown() {
                     {solutions.map((item, index) => (
                       <Link
                         key={index}
-                        to={item.href}
+                        href={item.href}
                         className="flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
                       >
                         <div className="flex items-center justify-center flex-shrink-0 text-neutral-500 dark:text-neutral-300">
