@@ -249,7 +249,7 @@ const RentalCarDatesRangeInput: FC<RentalCarDatesRangeInputProps> = ({
         }`}
     >
       <div className="absolute inset-0 flex">
-        <DateRangePicker
+        {/* <DateRangePicker
           startDate={stateDate.startDate}
           endDate={stateDate.endDate}
           focusedInput={focusedInput}
@@ -267,7 +267,7 @@ const RentalCarDatesRangeInput: FC<RentalCarDatesRangeInputProps> = ({
           }
           anchorDirection={anchorDirection}
           reopenPickerOnClearDates
-        />
+        /> */}
       </div>
 
       <div className={`${wrapFieldClassName} flex w-full`}>
